@@ -3,13 +3,14 @@ Builds digest.json for the Chronoscope public site from free, public RSS
 news feeds — no API keys, no paid services. Runs inside GitHub Actions.
 """
 import datetime
+import html
 import json
 import random
 import re
 
 import feedparser
 
-# Each source: (feed url, display name, category, how many stories to take)
+# Each source: (feed url, fallback display name, category, how many stories to take)
 # categories must be one of: world, politics, war, economy, science, culture, disaster
 SOURCES = [
     ("http://feeds.bbci.co.uk/news/world/rss.xml", "BBC News", "world", 4),
@@ -29,40 +30,73 @@ SOURCES = [
 
 MAX_ITEMS = 30
 
+# Google News titles arrive as "Headline text - Outlet Name" and their
+# "summary" field is a jumbled multi-outlet "full coverage" cluster, not a
+# real sentence — so we handle google feeds differently from real ones.
+GOOGLE_NEWS_HOST = "news.google.com"
+
 
 def clean_text(raw, limit=220):
     if not raw:
         return ""
-    text = re.sub(r"<[^>]+>", "", raw)
+    text = html.unescape(raw)
+    text = re.sub(r"<[^>]+>", "", text)
     text = re.sub(r"\s+", " ", text).strip()
     if len(text) > limit:
-        text = text[:limit].rsplit(" ", 1)[0] + "…"
+        text = text[:limit].rsplit(" ", 1)[0] + "\u2026"
     return text
 
 
-def fetch_source(url, name, category, count):
+def split_google_title(title):
+    """Google News titles end with ' - Outlet Name'; pull that apart."""
+    match = re.match(r"^(.*) - ([^-]{2,40})$", title)
+    if match:
+        return match.group(1).strip(), match.group(2).strip()
+    return title, None
+
+
+def fetch_source(url, fallback_name, category, count):
     items = []
+    is_google = GOOGLE_NEWS_HOST in url
     try:
         feed = feedparser.parse(url)
         for entry in feed.entries[: count * 2]:  # look at a few extra in case some are skipped
-            title = clean_text(entry.get("title", ""), limit=140)
-            if not title:
+            raw_title = clean_text(entry.get("title", ""), limit=200)
+            if not raw_title:
                 continue
-            summary = clean_text(entry.get("summary", "") or entry.get("description", ""))
+
+            source_name = fallback_name
+            if is_google:
+                title, outlet = split_google_title(raw_title)
+                # feedparser exposes the per-item <source> tag as entry.source
+                real_outlet = None
+                src = entry.get("source")
+                if isinstance(src, dict):
+                    real_outlet = src.get("title")
+                source_name = real_outlet or outlet or fallback_name
+                summary = title  # google's own "summary" is a jumbled link cluster, unusable as prose
+            else:
+                title = raw_title
+                summary = clean_text(entry.get("summary", "") or entry.get("description", ""))
+                if not summary:
+                    summary = title
+
+            title = title[:140]
             link = entry.get("link", "") or url
+
             items.append(
                 {
                     "title": title,
-                    "summary": summary or title,
+                    "summary": summary,
                     "category": category,
-                    "sourceName": name,
+                    "sourceName": source_name,
                     "sourceUrl": link,
                 }
             )
             if len(items) >= count:
                 break
     except Exception as exc:  # noqa: BLE001 - a flaky feed should never break the whole run
-        print(f"skipping {name}: {exc}")
+        print(f"skipping {fallback_name}: {exc}")
     return items
 
 
