@@ -12,19 +12,22 @@ import feedparser
 # Each source: (feed url, display name, category, how many stories to take)
 # categories must be one of: world, politics, war, economy, science, culture, disaster
 SOURCES = [
-    ("http://feeds.bbci.co.uk/news/world/rss.xml", "BBC News", "world", 2),
-    ("https://www.aljazeera.com/xml/rss/all.xml", "Al Jazeera", "world", 2),
-    ("https://feeds.npr.org/1004/rss.xml", "NPR", "world", 1),
-    ("https://news.google.com/rss?hl=en-IN&gl=IN&ceid=IN:en", "Google News (India)", "politics", 2),
-    ("https://news.google.com/rss?hl=en&gl=KR&ceid=KR:en", "Google News (Korea)", "politics", 1),
-    ("https://news.google.com/rss?hl=en-NG&gl=NG&ceid=NG:en", "Google News (Africa)", "world", 2),
-    ("https://news.google.com/rss?hl=en&gl=BR&ceid=BR:en", "Google News (Latin America)", "world", 2),
-    ("https://news.google.com/rss?hl=en&gl=SG&ceid=SG:en", "Google News (Asia)", "world", 1),
-    ("http://feeds.bbci.co.uk/news/business/rss.xml", "BBC Business", "economy", 2),
-    ("http://feeds.bbci.co.uk/news/science_and_environment/rss.xml", "BBC Science", "science", 1),
+    ("http://feeds.bbci.co.uk/news/world/rss.xml", "BBC News", "world", 4),
+    ("https://www.aljazeera.com/xml/rss/all.xml", "Al Jazeera", "world", 4),
+    ("https://feeds.npr.org/1004/rss.xml", "NPR", "world", 3),
+    ("https://news.google.com/rss?hl=en-IN&gl=IN&ceid=IN:en", "Google News (India)", "politics", 3),
+    ("https://news.google.com/rss?hl=en&gl=KR&ceid=KR:en", "Google News (Korea)", "politics", 3),
+    ("https://news.google.com/rss?hl=en-NG&gl=NG&ceid=NG:en", "Google News (Africa)", "world", 3),
+    ("https://news.google.com/rss?hl=en&gl=BR&ceid=BR:en", "Google News (Latin America)", "world", 3),
+    ("https://news.google.com/rss?hl=en&gl=SG&ceid=SG:en", "Google News (Asia)", "world", 3),
+    ("https://news.google.com/rss?hl=en&gl=AE&ceid=AE:en", "Google News (Middle East)", "world", 3),
+    ("https://news.google.com/rss?hl=en&gl=DE&ceid=DE:en", "Google News (Europe)", "world", 3),
+    ("http://feeds.bbci.co.uk/news/business/rss.xml", "BBC Business", "economy", 3),
+    ("http://feeds.bbci.co.uk/news/science_and_environment/rss.xml", "BBC Science", "science", 2),
+    ("http://feeds.bbci.co.uk/news/entertainment_and_arts/rss.xml", "BBC Culture", "culture", 2),
 ]
 
-MAX_ITEMS = 14
+MAX_ITEMS = 30
 
 
 def clean_text(raw, limit=220):
