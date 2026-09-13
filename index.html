@@ -1,0 +1,751 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Chronoscope</title>
+<link rel="manifest" href="manifest.json">
+<link rel="apple-touch-icon" href="icon-180.png">
+<meta name="theme-color" content="#14171A">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Chronoscope">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700;9..144,900&family=Public+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+  :root {
+    --bg: #EDEFEF;
+    --surface: #FFFFFF;
+    --surface-2: #F5F6F6;
+    --ink: #14171A;
+    --ink-soft: #545B61;
+    --ink-faint: #82898E;
+    --line: #D7DAD9;
+    --accent: #C8321F;
+    --accent-wash: rgba(200,50,31,0.08);
+    --accent-2: #22406B;
+    --accent-2-wash: rgba(34,64,107,0.08);
+    --shadow: 0 1px 2px rgba(20,23,26,0.06), 0 8px 24px -12px rgba(20,23,26,0.18);
+    --shadow-lift: 0 4px 10px rgba(20,23,26,0.08), 0 16px 32px -14px rgba(20,23,26,0.22);
+
+    --cat-world: #1F6E5C;
+    --cat-politics: #3D4E82;
+    --cat-war: #8B3A3A;
+    --cat-economy: #93701F;
+    --cat-science: #5C4B96;
+    --cat-culture: #9B4468;
+    --cat-disaster: #5C6670;
+
+    --font-display: "Fraunces", Georgia, serif;
+    --font-body: "Public Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    --font-mono: "IBM Plex Mono", ui-monospace, Menlo, monospace;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #14171A;
+      --surface: #1B1F22;
+      --surface-2: #202427;
+      --ink: #EDEFEF;
+      --ink-soft: #ABB2B7;
+      --ink-faint: #767D82;
+      --line: #2B3033;
+      --accent: #FF6A52;
+      --accent-wash: rgba(255,106,82,0.12);
+      --accent-2: #7FA8DC;
+      --accent-2-wash: rgba(127,168,220,0.12);
+      --shadow: 0 1px 2px rgba(0,0,0,0.4), 0 8px 24px -12px rgba(0,0,0,0.6);
+      --shadow-lift: 0 4px 10px rgba(0,0,0,0.45), 0 18px 36px -14px rgba(0,0,0,0.65);
+
+      --cat-world: #4FB89B;
+      --cat-politics: #8FA0D8;
+      --cat-war: #D98A8A;
+      --cat-economy: #D9B24C;
+      --cat-science: #B0A0E0;
+      --cat-culture: #E094B4;
+      --cat-disaster: #9DA6AC;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #14171A;
+    --surface: #1B1F22;
+    --surface-2: #202427;
+    --ink: #EDEFEF;
+    --ink-soft: #ABB2B7;
+    --ink-faint: #767D82;
+    --line: #2B3033;
+    --accent: #FF6A52;
+    --accent-wash: rgba(255,106,82,0.12);
+    --accent-2: #7FA8DC;
+    --accent-2-wash: rgba(127,168,220,0.12);
+    --shadow: 0 1px 2px rgba(0,0,0,0.4), 0 8px 24px -12px rgba(0,0,0,0.6);
+    --shadow-lift: 0 4px 10px rgba(0,0,0,0.45), 0 18px 36px -14px rgba(0,0,0,0.65);
+
+    --cat-world: #4FB89B;
+    --cat-politics: #8FA0D8;
+    --cat-war: #D98A8A;
+    --cat-economy: #D9B24C;
+    --cat-science: #B0A0E0;
+    --cat-culture: #E094B4;
+    --cat-disaster: #9DA6AC;
+  }
+
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: var(--font-body);
+    padding-inline: 16px;
+    padding-block: 20px 48px;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    * { animation-duration: 0.001ms !important; transition-duration: 0.001ms !important; }
+  }
+  svg.icon { display: block; flex-shrink: 0; }
+
+  .wrap { max-width: 820px; margin: 0 auto; }
+
+  /* ---------- Masthead ---------- */
+  .masthead {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 12px;
+    padding-bottom: 14px;
+    border-bottom: 2px solid var(--ink);
+    margin-bottom: 18px;
+    flex-wrap: wrap;
+  }
+  .brand-mark {
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: clamp(28px, 6vw, 38px);
+    letter-spacing: -0.01em;
+    text-wrap: balance;
+  }
+  .brand-mark em { font-style: italic; color: var(--accent); }
+  .masthead-date {
+    font-family: var(--font-mono);
+    font-size: 12.5px;
+    color: var(--ink-soft);
+    letter-spacing: 0.02em;
+    white-space: nowrap;
+  }
+
+  /* ---------- Tabs ---------- */
+  .tabs { display: flex; gap: 6px; margin-bottom: 18px; border-bottom: 1px solid var(--line); }
+  .tab {
+    display: flex; align-items: center; gap: 7px;
+    font-family: var(--font-body); font-weight: 600; font-size: 14.5px;
+    color: var(--ink-faint); background: none; border: none;
+    padding: 10px 4px 12px; margin-right: 18px; cursor: pointer;
+    border-bottom: 2.5px solid transparent; transform: translateY(1px);
+    transition: color .15s ease;
+  }
+  .tab svg { opacity: .75; }
+  .tab[aria-selected="true"] { color: var(--ink); border-bottom-color: var(--accent); }
+  .tab[aria-selected="true"] svg { opacity: 1; }
+  .tab:focus-visible { outline: 2px solid var(--accent-2); outline-offset: 2px; }
+
+  .panel { display: none; }
+  .panel.active { display: block; animation: fade .3s ease; }
+  @keyframes fade { from { opacity: 0; transform: translateY(6px);} to { opacity: 1; transform: none; } }
+  @keyframes pop-in { from { opacity: 0; transform: translateY(8px) scale(.98); } to { opacity: 1; transform: none; } }
+
+  /* ---------- On This Day ---------- */
+  .otd {
+    display: flex; gap: 12px; align-items: flex-start;
+    background: linear-gradient(135deg, var(--accent-2-wash), transparent 60%);
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    padding: 14px 16px;
+    margin-bottom: 18px;
+    cursor: pointer;
+    box-shadow: var(--shadow);
+    transition: box-shadow .15s ease, transform .15s ease;
+  }
+  .otd:hover { box-shadow: var(--shadow-lift); transform: translateY(-1px); }
+  .otd-icon {
+    width: 38px; height: 38px; border-radius: 50%;
+    background: var(--surface); border: 1px solid var(--line);
+    display: flex; align-items: center; justify-content: center;
+    color: var(--accent-2); flex-shrink: 0;
+  }
+  .otd-eyebrow {
+    font-family: var(--font-mono); font-size: 10.5px; text-transform: uppercase;
+    letter-spacing: 0.07em; color: var(--accent-2); font-weight: 600;
+  }
+  .otd h4 { font-family: var(--font-display); font-size: 16px; font-weight: 600; margin: 3px 0 3px; text-wrap: balance; }
+  .otd p { font-size: 13.5px; color: var(--ink-soft); margin: 0; line-height: 1.45; }
+
+  /* ---------- Today panel ---------- */
+  .today-meta { display: flex; align-items: center; justify-content: space-between; gap: 10px; margin-bottom: 14px; flex-wrap: wrap; }
+  .today-meta h2 { font-family: var(--font-display); font-size: 20px; font-weight: 600; margin: 0; }
+  .updated-chip {
+    font-family: var(--font-mono); font-size: 11.5px; color: var(--ink-faint);
+    background: var(--surface-2); border: 1px solid var(--line); border-radius: 999px; padding: 4px 10px;
+  }
+
+  /* category mix bar */
+  .mix { margin-bottom: 16px; }
+  .mix-bar { display: flex; height: 8px; border-radius: 999px; overflow: hidden; background: var(--surface-2); border: 1px solid var(--line); }
+  .mix-seg { height: 100%; }
+  .mix-legend { display: flex; flex-wrap: wrap; gap: 10px 14px; margin-top: 8px; }
+  .mix-legend-item { display: flex; align-items: center; gap: 5px; font-size: 11.5px; color: var(--ink-soft); font-family: var(--font-mono); }
+  .mix-dot { width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0; }
+
+  /* filter pills */
+  .filters { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 18px; }
+  .filter-pill {
+    display: flex; align-items: center; gap: 6px;
+    font-family: var(--font-body); font-weight: 600; font-size: 12.5px;
+    padding: 6px 12px 6px 9px; border-radius: 999px; border: 1px solid var(--line);
+    background: var(--surface); color: var(--ink-soft); cursor: pointer;
+    transition: all .12s ease;
+  }
+  .filter-pill svg { width: 14px; height: 14px; }
+  .filter-pill:hover { border-color: var(--cat-color, var(--accent-2)); }
+  .filter-pill.active { background: var(--cat-color, var(--accent)); border-color: var(--cat-color, var(--accent)); color: #fff; }
+
+  .story-grid { display: grid; grid-template-columns: 1fr; gap: 12px; }
+  @media (min-width: 620px) { .story-grid { grid-template-columns: 1fr 1fr; } }
+
+  .story {
+    position: relative; overflow: hidden;
+    background: var(--surface); border: 1px solid var(--line); border-radius: 12px;
+    padding: 16px 16px 14px; box-shadow: var(--shadow);
+    border-top: 3px solid var(--cat-color, var(--accent));
+    animation: pop-in .35s ease backwards;
+    transition: box-shadow .15s ease, transform .15s ease;
+  }
+  .story:hover { box-shadow: var(--shadow-lift); transform: translateY(-2px); }
+  .story.hero { grid-column: 1 / -1; padding: 22px 24px 20px; }
+  .story.hidden-by-filter { display: none; }
+  .story-watermark {
+    position: absolute; top: -10px; right: -10px; width: 92px; height: 92px;
+    color: var(--cat-color, var(--accent)); opacity: .07; pointer-events: none;
+  }
+  .story-head { display: flex; align-items: center; gap: 7px; margin-bottom: 8px; }
+  .story-icon-badge {
+    width: 26px; height: 26px; border-radius: 50%;
+    background: color-mix(in srgb, var(--cat-color, var(--accent)) 16%, transparent);
+    color: var(--cat-color, var(--accent));
+    display: flex; align-items: center; justify-content: center; flex-shrink: 0;
+  }
+  .story.hero .story-icon-badge { width: 34px; height: 34px; }
+  .cat-tag { font-family: var(--font-mono); font-size: 10.5px; text-transform: uppercase; letter-spacing: 0.06em; color: var(--cat-color, var(--accent)); font-weight: 600; }
+  .story h3 { font-family: var(--font-display); font-size: 17.5px; font-weight: 600; line-height: 1.3; margin: 0 0 6px; text-wrap: balance; }
+  .story.hero h3 { font-size: 23px; }
+  .story p { font-size: 14.5px; line-height: 1.55; color: var(--ink-soft); margin: 0 0 10px; }
+  .story a.source { font-size: 13px; font-weight: 600; color: var(--accent-2); text-decoration: none; }
+  .story a.source:hover { text-decoration: underline; }
+
+  .empty-state, .loading-state {
+    padding: 32px 18px; text-align: center; color: var(--ink-faint); font-size: 14px;
+    background: var(--surface); border: 1px dashed var(--line); border-radius: 10px;
+  }
+  .pulse { animation: pulse 1.4s ease-in-out infinite; }
+  @keyframes pulse { 0%,100% { opacity: .55; } 50% { opacity: 1; } }
+
+  /* ---------- Time machine panel ---------- */
+  .tm-controls { background: var(--surface); border: 1px solid var(--line); border-radius: 14px; padding: 20px; box-shadow: var(--shadow); margin-bottom: 18px; }
+  .tm-year-display { display: flex; align-items: center; justify-content: center; gap: 14px; margin-bottom: 4px; }
+  .tm-year-display button {
+    width: 36px; height: 36px; border-radius: 50%; border: 1px solid var(--line);
+    background: var(--surface-2); color: var(--ink); font-family: var(--font-mono); font-size: 16px; cursor: pointer;
+    transition: border-color .12s ease, transform .12s ease;
+  }
+  .tm-year-display button:hover { border-color: var(--accent-2); transform: scale(1.06); }
+  .tm-year-num {
+    font-family: var(--font-display); font-weight: 700; font-size: clamp(44px, 12vw, 64px);
+    font-variant-numeric: tabular-nums; min-width: 4.5ch; text-align: center; line-height: 1;
+  }
+  .tm-sub { text-align: center; font-size: 12px; color: var(--ink-faint); font-family: var(--font-mono); margin-bottom: 14px; min-height: 16px; }
+  .tm-sub .era-chip {
+    display: inline-block; background: var(--accent-2-wash); color: var(--accent-2);
+    border-radius: 999px; padding: 2px 9px; font-weight: 600;
+  }
+
+  #yearSlider { width: 100%; accent-color: var(--accent); margin: 4px 0 2px; cursor: pointer; }
+
+  .timeline-strip { position: relative; height: 26px; margin: 2px 0 14px; }
+  .timeline-track { position: absolute; left: 0; right: 0; top: 12px; height: 2px; background: var(--line); border-radius: 2px; }
+  .timeline-dot {
+    position: absolute; top: 6px; width: 9px; height: 9px; border-radius: 50%;
+    background: var(--cat-color, var(--accent-2)); transform: translateX(-50%);
+    cursor: pointer; border: 2px solid var(--surface);
+    transition: transform .12s ease;
+  }
+  .timeline-dot:hover, .timeline-dot:focus-visible { transform: translateX(-50%) scale(1.5); outline: none; }
+  .timeline-dot.current { width: 13px; height: 13px; top: 4px; background: var(--accent); z-index: 2; box-shadow: 0 0 0 3px var(--accent-wash); }
+
+  .decade-chips { display: flex; flex-wrap: wrap; gap: 6px; justify-content: center; }
+  .chip {
+    font-family: var(--font-mono); font-size: 12px; padding: 5px 10px; border-radius: 999px;
+    border: 1px solid var(--line); background: var(--surface-2); color: var(--ink-soft); cursor: pointer;
+    transition: all .12s ease;
+  }
+  .chip:hover { border-color: var(--accent-2); color: var(--ink); transform: translateY(-1px); }
+  .chip.random { color: var(--accent); border-color: var(--accent); font-weight: 600; }
+
+  .tm-headline-row { display: flex; align-items: baseline; justify-content: space-between; gap: 10px; flex-wrap: wrap; margin: 4px 0 16px; }
+  .tm-headline { font-family: var(--font-display); font-size: 21px; font-weight: 600; text-wrap: balance; margin: 0; }
+  .tm-headline .yr { color: var(--accent-2); }
+  .years-ago { font-family: var(--font-mono); font-size: 11.5px; color: var(--ink-faint); white-space: nowrap; }
+
+  .event-list { display: flex; flex-direction: column; gap: 10px; }
+  .event {
+    position: relative; overflow: hidden;
+    background: var(--surface); border: 1px solid var(--line); border-radius: 12px;
+    padding: 15px 16px 15px 14px; box-shadow: var(--shadow);
+    display: grid; grid-template-columns: 40px 1fr; gap: 12px;
+    animation: pop-in .35s ease backwards;
+    transition: box-shadow .15s ease, transform .15s ease;
+  }
+  .event:hover { box-shadow: var(--shadow-lift); transform: translateY(-2px); }
+  .event-icon-badge {
+    width: 40px; height: 40px; border-radius: 10px;
+    background: color-mix(in srgb, var(--cat-color, var(--accent)) 15%, transparent);
+    color: var(--cat-color, var(--accent));
+    display: flex; align-items: center; justify-content: center; flex-shrink: 0;
+  }
+  .event-head { display: flex; align-items: center; gap: 8px; margin-bottom: 4px; }
+  .event h3 { font-family: var(--font-display); font-size: 16.5px; font-weight: 600; margin: 0 0 5px; }
+  .event p { font-size: 14px; line-height: 1.55; color: var(--ink-soft); margin: 0 0 8px; }
+  .event a.readmore { font-size: 13px; font-weight: 600; color: var(--accent-2); text-decoration: none; }
+  .event a.readmore:hover { text-decoration: underline; }
+  .event a.readmore::after { content: " \2192"; }
+
+  .fallback-card { background: var(--surface-2); border: 1px dashed var(--line); border-radius: 10px; padding: 26px 20px; text-align: center; color: var(--ink-soft); font-size: 14.5px; }
+  .fallback-card a { color: var(--accent-2); font-weight: 600; text-decoration: none; }
+  .fallback-card a:hover { text-decoration: underline; }
+
+  /* ---------- Install banner ---------- */
+  .install-banner {
+    display: flex; align-items: flex-start; gap: 10px; background: var(--surface-2); border: 1px solid var(--line);
+    border-radius: 10px; padding: 12px 14px; margin-bottom: 18px; font-size: 13.5px; color: var(--ink-soft); line-height: 1.5;
+  }
+  .install-banner[hidden] { display: none; }
+  .install-banner strong { color: var(--ink); }
+  .install-banner button { margin-left: auto; background: none; border: none; color: var(--ink-faint); font-size: 18px; line-height: 1; cursor: pointer; padding: 0 2px; }
+
+  footer { max-width: 820px; margin: 32px auto 0; text-align: center; font-size: 12px; color: var(--ink-faint); }
+
+  /* ---------- Confetti ---------- */
+  .confetti-piece { position: fixed; top: 0; left: 0; width: 8px; height: 8px; border-radius: 2px; pointer-events: none; z-index: 999; }
+</style>
+</head>
+<body>
+
+<div class="wrap">
+  <div class="masthead">
+    <span class="brand-mark">Chron<em>o</em>scope</span>
+    <div class="masthead-date" id="todayDate"></div>
+  </div>
+
+  <div id="installBanner" class="install-banner" hidden>
+    <span id="installText"></span>
+    <button id="installDismiss" aria-label="Dismiss">&times;</button>
+  </div>
+
+  <div class="tabs" role="tablist">
+    <button class="tab" role="tab" id="tabToday" aria-selected="true" aria-controls="panelToday"></button>
+    <button class="tab" role="tab" id="tabTM" aria-selected="false" aria-controls="panelTM"></button>
+  </div>
+
+  <section class="panel active" id="panelToday" role="tabpanel" aria-labelledby="tabToday">
+    <div id="otdSlot"></div>
+
+    <div class="today-meta">
+      <h2 id="todayHeadline">Current affairs</h2>
+      <span class="updated-chip" id="updatedChip">loading&hellip;</span>
+    </div>
+
+    <div class="mix" id="mixSlot"></div>
+    <div class="filters" id="filterSlot"></div>
+
+    <div id="storyList" class="story-grid">
+      <div class="loading-state pulse">Fetching today&rsquo;s digest&hellip;</div>
+    </div>
+  </section>
+
+  <section class="panel" id="panelTM" role="tabpanel" aria-labelledby="tabTM">
+    <div class="tm-controls">
+      <div class="tm-year-display">
+        <button id="yearDown" aria-label="Previous year">&minus;</button>
+        <div class="tm-year-num" id="yearNum">2008</div>
+        <button id="yearUp" aria-label="Next year">&plus;</button>
+      </div>
+      <div class="tm-sub" id="tmSub"></div>
+      <input type="range" id="yearSlider" min="1776" max="2025" value="2008" step="1">
+      <div class="timeline-strip" id="timelineStrip"><div class="timeline-track"></div></div>
+      <div class="decade-chips" id="decadeChips"></div>
+    </div>
+
+    <div class="tm-headline-row">
+      <h3 class="tm-headline" id="tmHeadline"></h3>
+      <span class="years-ago" id="yearsAgo"></span>
+    </div>
+    <div id="eventList" class="event-list"></div>
+  </section>
+</div>
+
+<footer>Today&rsquo;s stories refresh automatically each morning &middot; Time Machine draws on curated history &amp; Wikipedia</footer>
+
+<script src="years-data.js"></script>
+<script>
+(function() {
+  "use strict";
+
+  // ================= Icons =================
+  var ICON_PATHS = {
+    world: '<circle cx="12" cy="12" r="9"/><path d="M3 12h18"/><path d="M12 3c2.6 2.6 4 5.7 4 9s-1.4 6.4-4 9c-2.6-2.6-4-5.7-4-9s1.4-6.4 4-9z"/>',
+    politics: '<rect x="4" y="10" width="16" height="9" rx="1.4"/><path d="M9 10V8a3 3 0 0 1 6 0v2"/><path d="M9.3 14.3l1.8 1.8 3.2-3.6"/>',
+    war: '<path d="M12 3l7 3v6c0 4.5-3 7.5-7 9-4-1.5-7-4.5-7-9V6l7-3z"/><path d="M13.3 8L10 12h3l-2.3 4"/>',
+    economy: '<path d="M4 16l5-5 4 4 7-8"/><path d="M15 7h5v5"/>',
+    science: '<circle cx="12" cy="12" r="1.5" fill="currentColor" stroke="none"/><ellipse cx="12" cy="12" rx="9" ry="3.6"/><ellipse cx="12" cy="12" rx="9" ry="3.6" transform="rotate(60 12 12)"/><ellipse cx="12" cy="12" rx="9" ry="3.6" transform="rotate(120 12 12)"/>',
+    culture: '<rect x="3" y="9.5" width="18" height="10.5" rx="1.4"/><path d="M3 9.5l1.8-4.5h14.4l1.8 4.5"/><path d="M7.5 5l2 4.5M12 5l2 4.5M16.5 5l2 4.5"/>',
+    disaster: '<path d="M12 4.2L21 19H3z"/><path d="M12 10.2v4"/><circle cx="12" cy="16.6" r="0.9" fill="currentColor" stroke="none"/>'
+  };
+  function icon(cat, size) {
+    size = size || 18;
+    var p = ICON_PATHS[cat] || ICON_PATHS.world;
+    return '<svg class="icon" width="' + size + '" height="' + size + '" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">' + p + '</svg>';
+  }
+  var TODAY_TAB_ICON = '<svg class="icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="17" rx="2"/><path d="M3 9h18"/><path d="M8 2v4M16 2v4"/></svg>';
+  var TM_TAB_ICON = '<svg class="icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="13" r="8"/><path d="M12 9v4l2.5 2.5"/><path d="M9 2h6"/></svg>';
+
+  document.getElementById("tabToday").innerHTML = TODAY_TAB_ICON + " Today";
+  document.getElementById("tabTM").innerHTML = TM_TAB_ICON + " Time Machine";
+
+  var CATEGORY_LABEL = { world: "World", politics: "Politics", war: "Conflict", economy: "Business", science: "Science", culture: "Culture", disaster: "Disaster" };
+
+  function escapeHtml(s) {
+    return String(s == null ? "" : s).replace(/[&<>"']/g, function(c) {
+      return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c];
+    });
+  }
+  function escapeAttr(s) { return escapeHtml(s); }
+
+  // ================= Date =================
+  var now = new Date();
+  document.getElementById("todayDate").textContent = now.toLocaleDateString(undefined, { weekday: "long", year: "numeric", month: "long", day: "numeric" });
+  function pad2(n) { return n < 10 ? "0" + n : "" + n; }
+  var todayMMDD = pad2(now.getMonth() + 1) + "-" + pad2(now.getDate());
+  function dayOfYear(d) {
+    var start = new Date(d.getFullYear(), 0, 0);
+    return Math.floor((d - start) / 86400000);
+  }
+
+  // ================= Tabs =================
+  var tabToday = document.getElementById("tabToday");
+  var tabTM = document.getElementById("tabTM");
+  var panelToday = document.getElementById("panelToday");
+  var panelTM = document.getElementById("panelTM");
+
+  function selectTab(which) {
+    var todayActive = which === "today";
+    tabToday.setAttribute("aria-selected", String(todayActive));
+    tabTM.setAttribute("aria-selected", String(!todayActive));
+    panelToday.classList.toggle("active", todayActive);
+    panelTM.classList.toggle("active", !todayActive);
+    try { localStorage.setItem("chrono_tab", which); } catch (e) {}
+  }
+  tabToday.addEventListener("click", function() { selectTab("today"); });
+  tabTM.addEventListener("click", function() { selectTab("tm"); });
+  try { if (localStorage.getItem("chrono_tab") === "tm") selectTab("tm"); } catch (e) {}
+
+  // ================= Install banner =================
+  (function() {
+    var banner = document.getElementById("installBanner");
+    var text = document.getElementById("installText");
+    var dismiss = document.getElementById("installDismiss");
+    var dismissed = false;
+    try { dismissed = localStorage.getItem("chrono_install_dismissed") === "1"; } catch (e) {}
+    if (dismissed) return;
+    var ua = navigator.userAgent || "";
+    var isStandalone = window.matchMedia("(display-mode: standalone)").matches || window.navigator.standalone;
+    if (isStandalone) return;
+    var isIOS = /iphone|ipad|ipod/i.test(ua);
+    var isAndroid = /android/i.test(ua);
+    if (!isIOS && !isAndroid) return;
+    text.innerHTML = isIOS
+      ? "<strong>Install this as an app:</strong> tap the Share icon, then “Add to Home Screen.”"
+      : "<strong>Install this as an app:</strong> open the browser menu and tap “Add to Home screen” or “Install app.”";
+    banner.hidden = false;
+    dismiss.addEventListener("click", function() {
+      banner.hidden = true;
+      try { localStorage.setItem("chrono_install_dismissed", "1"); } catch (e) {}
+    });
+  })();
+
+  // ================= Confetti =================
+  function confettiBurst(x, y) {
+    var colors = ["#C8321F", "#22406B", "#93701F", "#1F6E5C", "#5C4B96", "#9B4468"];
+    for (var i = 0; i < 16; i++) {
+      var piece = document.createElement("div");
+      piece.className = "confetti-piece";
+      piece.style.background = colors[i % colors.length];
+      piece.style.left = x + "px";
+      piece.style.top = y + "px";
+      var angle = (Math.PI * 2 * i) / 16 + Math.random() * 0.4;
+      var dist = 60 + Math.random() * 70;
+      var dx = Math.cos(angle) * dist;
+      var dy = Math.sin(angle) * dist - 30;
+      var rot = Math.random() * 480 - 240;
+      piece.animate([
+        { transform: "translate(0,0) rotate(0deg)", opacity: 1 },
+        { transform: "translate(" + dx + "px," + (dy + 90) + "px) rotate(" + rot + "deg)", opacity: 0 }
+      ], { duration: 750 + Math.random() * 300, easing: "cubic-bezier(.2,.7,.3,1)" });
+      document.body.appendChild(piece);
+      (function(p) { setTimeout(function() { p.remove(); }, 1100); })(piece);
+    }
+  }
+
+  // ================= Today: digest =================
+  var currentItems = [];
+  var activeFilter = null;
+
+  function renderMixAndFilters(items) {
+    var counts = {};
+    items.forEach(function(it) { var c = it.category || "world"; counts[c] = (counts[c] || 0) + 1; });
+    var cats = Object.keys(counts).sort(function(a, b) { return counts[b] - counts[a]; });
+    var total = items.length;
+
+    var mixEl = document.getElementById("mixSlot");
+    mixEl.innerHTML =
+      '<div class="mix-bar">' + cats.map(function(c) {
+        var pct = (counts[c] / total * 100).toFixed(1);
+        return '<div class="mix-seg" style="width:' + pct + '%; background: var(--cat-' + c + ')"></div>';
+      }).join("") + '</div>' +
+      '<div class="mix-legend">' + cats.map(function(c) {
+        return '<span class="mix-legend-item"><span class="mix-dot" style="background: var(--cat-' + c + ')"></span>' + (CATEGORY_LABEL[c] || c) + ' &middot; ' + counts[c] + '</span>';
+      }).join("") + '</div>';
+
+    var filterEl = document.getElementById("filterSlot");
+    var allPill = '<button class="filter-pill' + (activeFilter === null ? ' active' : '') + '" data-cat="">All</button>';
+    var pills = cats.map(function(c) {
+      return '<button class="filter-pill' + (activeFilter === c ? ' active' : '') + '" data-cat="' + c + '" style="--cat-color: var(--cat-' + c + ')">' + icon(c, 14) + CATEGORY_LABEL[c] + '</button>';
+    }).join("");
+    filterEl.innerHTML = allPill + pills;
+    filterEl.querySelectorAll(".filter-pill").forEach(function(btn) {
+      btn.addEventListener("click", function() {
+        activeFilter = btn.dataset.cat || null;
+        applyFilter();
+        filterEl.querySelectorAll(".filter-pill").forEach(function(b) { b.classList.toggle("active", b === btn); });
+      });
+    });
+  }
+
+  function applyFilter() {
+    document.querySelectorAll("#storyList .story").forEach(function(card) {
+      var show = !activeFilter || card.dataset.cat === activeFilter;
+      card.classList.toggle("hidden-by-filter", !show);
+    });
+  }
+
+  function renderDigest(data) {
+    var listEl = document.getElementById("storyList");
+    var chip = document.getElementById("updatedChip");
+    var headline = document.getElementById("todayHeadline");
+
+    if (!data || !data.items || !data.items.length) {
+      listEl.innerHTML = '<div class="empty-state">No digest yet &mdash; check back after the next morning refresh.</div>';
+      chip.textContent = "not yet generated";
+      document.getElementById("mixSlot").innerHTML = "";
+      document.getElementById("filterSlot").innerHTML = "";
+      return;
+    }
+
+    currentItems = data.items;
+    if (data.dateLabel) headline.textContent = "Current affairs — " + data.dateLabel;
+    if (data.generatedAt) {
+      try {
+        var d = new Date(data.generatedAt);
+        chip.textContent = "updated " + d.toLocaleString(undefined, { month: "short", day: "numeric", hour: "numeric", minute: "2-digit" });
+      } catch (e) { chip.textContent = "updated"; }
+    }
+
+    renderMixAndFilters(currentItems);
+
+    listEl.innerHTML = currentItems.map(function(item, idx) {
+      var catKey = item.category || "world";
+      var isHero = idx === 0;
+      return '<article class="story' + (isHero ? ' hero' : '') + '" data-cat="' + catKey + '" style="--cat-color: var(--cat-' + catKey + '); animation-delay:' + (idx * 45) + 'ms">' +
+        icon(catKey, 92).replace('class="icon"', 'class="icon story-watermark"') +
+        '<div class="story-head"><span class="story-icon-badge">' + icon(catKey, isHero ? 18 : 15) + '</span><span class="cat-tag">' + (CATEGORY_LABEL[catKey] || catKey) + '</span></div>' +
+        '<h3>' + escapeHtml(item.title) + '</h3>' +
+        '<p>' + escapeHtml(item.summary) + '</p>' +
+        (item.sourceUrl ? '<a class="source" href="' + escapeAttr(item.sourceUrl) + '" target="_blank" rel="noopener">' + escapeHtml(item.sourceName || "Read source") + ' →</a>' : '') +
+      '</article>';
+    }).join("");
+  }
+
+  function fetchDigest() {
+    var listEl = document.getElementById("storyList");
+    fetch("digest.json?_=" + Date.now(), { cache: "no-store" })
+      .then(function(res) { if (!res.ok) throw new Error("bad status"); return res.json(); })
+      .then(function(data) { renderDigest(data); })
+      .catch(function() {
+        listEl.innerHTML = '<div class="empty-state">Couldn’t load today’s digest right now.</div>';
+      });
+  }
+  fetchDigest();
+  // Digest is rebuilt once a day; a periodic re-fetch picks it up if this tab is left open.
+  setInterval(fetchDigest, 30 * 60 * 1000);
+
+  // ================= On This Day =================
+  var datedEvents = [];
+  Object.keys(YEAR_DATA).forEach(function(y) {
+    YEAR_DATA[y].events.forEach(function(ev) {
+      if (ev.dt) datedEvents.push({ year: parseInt(y, 10), ev: ev });
+    });
+  });
+
+  (function renderOnThisDay() {
+    var slot = document.getElementById("otdSlot");
+    var matches = datedEvents.filter(function(d) { return d.ev.dt === todayMMDD; });
+    var pick, eyebrow;
+    if (matches.length) {
+      pick = matches[Math.floor(Math.random() * matches.length)];
+      eyebrow = "On this day";
+    } else if (datedEvents.length) {
+      var idx = dayOfYear(now) % datedEvents.length;
+      pick = datedEvents[idx];
+      eyebrow = "History spotlight";
+    } else return;
+
+    var y = pick.year, ev = pick.ev;
+    slot.innerHTML =
+      '<div class="otd" id="otdCard" style="--cat-color: var(--cat-' + ev.c + ')">' +
+        '<div class="otd-icon">' + icon(ev.c, 18) + '</div>' +
+        '<div><span class="otd-eyebrow">' + eyebrow + ' · ' + y + '</span>' +
+          '<h4>' + escapeHtml(ev.t) + '</h4>' +
+          '<p>' + escapeHtml(ev.d) + '</p>' +
+        '</div>' +
+      '</div>';
+    document.getElementById("otdCard").addEventListener("click", function() {
+      selectTab("tm");
+      setYear(y);
+    });
+  })();
+
+  // ================= Time Machine =================
+  var MIN_YEAR = 1776, MAX_YEAR = 2025;
+  var yearNum = document.getElementById("yearNum");
+  var yearSlider = document.getElementById("yearSlider");
+  var yearDown = document.getElementById("yearDown");
+  var yearUp = document.getElementById("yearUp");
+  var decadeChips = document.getElementById("decadeChips");
+  var tmHeadline = document.getElementById("tmHeadline");
+  var yearsAgoEl = document.getElementById("yearsAgo");
+  var tmSub = document.getElementById("tmSub");
+  var eventList = document.getElementById("eventList");
+  var timelineStrip = document.getElementById("timelineStrip");
+
+  var curatedYears = Object.keys(YEAR_DATA).map(Number).sort(function(a, b) { return a - b; });
+
+  var ERAS = [
+    { to: 1899, label: "The Age of Empire" },
+    { to: 1918, label: "The Great War Era" },
+    { to: 1938, label: "Between the Wars" },
+    { to: 1945, label: "World War II" },
+    { to: 1969, label: "Cold War Dawn" },
+    { to: 1991, label: "Cold War Endgame" },
+    { to: 2000, label: "The Nineties" },
+    { to: 2009, label: "War on Terror Era" },
+    { to: 2019, label: "The Social Media Decade" },
+    { to: 9999, label: "The Present Decade" }
+  ];
+  function eraFor(y) { for (var i = 0; i < ERAS.length; i++) if (y <= ERAS[i].to) return ERAS[i].label; return ERAS[ERAS.length - 1].label; }
+
+  function buildTimeline() {
+    var range = MAX_YEAR - MIN_YEAR;
+    var html = curatedYears.map(function(y) {
+      var pct = ((y - MIN_YEAR) / range * 100).toFixed(2);
+      return '<div class="timeline-dot" data-year="' + y + '" style="left:' + pct + '%" tabindex="0" role="button" aria-label="' + y + '" title="' + y + ': ' + escapeAttr(YEAR_DATA[y].headline) + '"></div>';
+    }).join("");
+    timelineStrip.innerHTML = '<div class="timeline-track"></div>' + html;
+    timelineStrip.querySelectorAll(".timeline-dot").forEach(function(dot) {
+      dot.addEventListener("click", function() { setYear(parseInt(dot.dataset.year, 10)); });
+      dot.addEventListener("keydown", function(e) { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); setYear(parseInt(dot.dataset.year, 10)); } });
+    });
+  }
+
+  function updateTimelinePosition(y) {
+    timelineStrip.querySelectorAll(".timeline-dot").forEach(function(dot) {
+      dot.classList.toggle("current", parseInt(dot.dataset.year, 10) === y);
+    });
+  }
+
+  function buildChips() {
+    var picks = [1929, 1945, 1969, 1989, 2001, 2008, 2020, 2025];
+    var html = picks.map(function(y) { return '<button class="chip" data-year="' + y + '">' + y + '</button>'; }).join("");
+    html += '<button class="chip random" id="randomChip">✨ Surprise me</button>';
+    decadeChips.innerHTML = html;
+    decadeChips.querySelectorAll(".chip[data-year]").forEach(function(btn) {
+      btn.addEventListener("click", function() { setYear(parseInt(btn.dataset.year, 10)); });
+    });
+    document.getElementById("randomChip").addEventListener("click", function(e) {
+      var y = curatedYears[Math.floor(Math.random() * curatedYears.length)];
+      setYear(y);
+      var rect = e.target.getBoundingClientRect();
+      confettiBurst(rect.left + rect.width / 2, rect.top + rect.height / 2);
+    });
+  }
+
+  function setYear(y) {
+    y = Math.max(MIN_YEAR, Math.min(MAX_YEAR, y));
+    yearNum.textContent = y;
+    yearSlider.value = y;
+    updateTimelinePosition(y);
+    renderYear(y);
+    try { localStorage.setItem("chrono_year", String(y)); } catch (e) {}
+  }
+
+  function renderYear(y) {
+    var entry = YEAR_DATA[y];
+    var currentYearReal = now.getFullYear();
+    var diff = currentYearReal - y;
+    yearsAgoEl.textContent = diff > 0 ? diff + " year" + (diff === 1 ? "" : "s") + " ago" : (diff === 0 ? "this year" : "");
+    tmSub.innerHTML = '<span class="era-chip">' + eraFor(y) + '</span>';
+
+    if (entry) {
+      tmHeadline.innerHTML = 'In <span class="yr">' + y + '</span>: ' + escapeHtml(entry.headline);
+      eventList.innerHTML = entry.events.map(function(ev, idx) {
+        var catLabel = CATEGORY_LABEL[ev.c] || ev.c;
+        return '<article class="event" style="--cat-color: var(--cat-' + ev.c + '); animation-delay:' + (idx * 50) + 'ms">' +
+          '<div class="event-icon-badge">' + icon(ev.c, 20) + '</div>' +
+          '<div>' +
+            '<div class="event-head"><span class="cat-tag">' + catLabel + '</span></div>' +
+            '<h3>' + escapeHtml(ev.t) + '</h3>' +
+            '<p>' + escapeHtml(ev.d) + '</p>' +
+            '<a class="readmore" href="' + escapeAttr(ev.l) + '" target="_blank" rel="noopener">Read more</a>' +
+          '</div>' +
+        '</article>';
+      }).join("");
+    } else {
+      tmHeadline.innerHTML = '<span class="yr">' + y + '</span>';
+      eventList.innerHTML = '<div class="fallback-card">We haven’t curated ' + y + ' yet. <a href="https://en.wikipedia.org/wiki/' + y + '" target="_blank" rel="noopener">See what happened in ' + y + ' on Wikipedia →</a></div>';
+    }
+  }
+
+  yearSlider.addEventListener("input", function() { setYear(parseInt(yearSlider.value, 10)); });
+  yearDown.addEventListener("click", function() { setYear(parseInt(yearNum.textContent, 10) - 1); });
+  yearUp.addEventListener("click", function() { setYear(parseInt(yearNum.textContent, 10) + 1); });
+
+  buildTimeline();
+  buildChips();
+  var startYear = 2008;
+  try {
+    var saved = parseInt(localStorage.getItem("chrono_year"), 10);
+    if (saved && saved >= MIN_YEAR && saved <= MAX_YEAR) startYear = saved;
+  } catch (e) {}
+  setYear(startYear);
+})();
+</script>
+</body>
+</html>
