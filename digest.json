@@ -1,181 +1,41 @@
 {
-  "generatedAt": "2026-10-16T17:01:31.687702+00:00",
-  "dateLabel": "October 16, 2026",
+  "generatedAt": "2026-10-17T16:00:09.083965+00:00",
+  "dateLabel": "October 17, 2026",
   "items": [
     {
-      "title": "US senators call for investigation into Ukraine's Starlink restrictions",
-      "summary": "US senators call for investigation into Ukraine's Starlink restrictions",
-      "category": "world",
-      "sourceName": "BBC",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9NQXV2ajZZY3BUWGhPUWp3Tkxwd0tsT3VMTW81d3h2T1h4M0NWLWpPZ0Rna2w5ZzlNLWFCak9rbElPT0F1M1lMYlJiMVJrX29YYWlWNzBXakRTWmc?oc=5"
-    },
-    {
-      "title": "Zelensky says Ukraine has right to defend itself after Trump calls latest strikes a 'disgrace'",
-      "summary": "EU leaders rally around Ukraine's president after new criticism from Donald Trump, who says Zelensky is \"more difficult to work with than Putin\".",
+      "title": "Trump waives several Russia sanctions as row with Zelensky intensifies",
+      "summary": "The US president temporarily ends many restrictions on Moscow recently passed by Congress over \"national security\" concerns.",
       "category": "world",
       "sourceName": "BBC News",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/c58jz174w89ro?at_medium=RSS&at_campaign=rss"
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cxr5yvzv7rp0o?at_medium=RSS&at_campaign=rss"
     },
     {
-      "title": "'Everything got worse': Gen Z express frustration, regret after Trump vote",
-      "summary": "'Everything got worse': Gen Z express frustration, regret after Trump vote",
-      "category": "world",
-      "sourceName": "NPR",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMie0FVX3lxTE0yaHRFek4tTlppaU9mb3pDaEt3cGluNWx1Vnp2VktPbUt4TjRPLVFkRTBnNnk4cDVIaG5RN1JwVnJGb3V4dkNhWGpaMTU3czRmYkVUNDNaMGlNdW8wd01mdGYySHdyZ2dPSF9LeXNzR2p6ajRMNEUzcmxVcw?oc=5"
-    },
-    {
-      "title": "Watch: Did Tesla really just unveil a flying car?",
-      "summary": "Tesla CEO Elon Musk showcased the vehicle at a facility owned by his SpaceX company, which helped develop the model.",
-      "category": "economy",
-      "sourceName": "BBC Business",
-      "sourceUrl": "https://www.bbc.co.uk/news/videos/ckly4mj1g3n9o?at_medium=RSS&at_campaign=rss"
-    },
-    {
-      "title": "Woman says she was left 'bewildered and confused' by alleged Russell Brand assault",
-      "summary": "The 51-year-old faces three counts of rape, three of sexual assault and one of indecent assault, all of which he denies.",
-      "category": "culture",
-      "sourceName": "BBC Culture",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/ck8dz6m1d2n6o?at_medium=RSS&at_campaign=rss"
-    },
-    {
-      "title": "'Everything got worse': Gen Z express frustration, regret after Trump vote",
-      "summary": "'Everything got worse': Gen Z express frustration, regret after Trump vote",
-      "category": "world",
-      "sourceName": "NPR",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMie0FVX3lxTE0yaHRFek4tTlppaU9mb3pDaEt3cGluNWx1Vnp2VktPbUt4TjRPLVFkRTBnNnk4cDVIaG5RN1JwVnJGb3V4dkNhWGpaMTU3czRmYkVUNDNaMGlNdW8wd01mdGYySHdyZ2dPSF9LeXNzR2p6ajRMNEUzcmxVcw?oc=5"
-    },
-    {
-      "title": "CJP, Abhijeet Dipke: 'Cockroach' party founder detained ahead of Central Park Delhi protest",
-      "summary": "CJP, Abhijeet Dipke: 'Cockroach' party founder detained ahead of Central Park Delhi protest",
-      "category": "politics",
-      "sourceName": "BBC",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9jTWkxbWticGNZUXdvNm5CdlVJMWRGWHpWWkZBYkczMnh3Uk5EZ0s2b1gxY1Fyc05pMWx1SS04NFpnU0E2MmFRUkRTeFc3TWw2WDdEdXlNb0VpR00?oc=5"
-    },
-    {
-      "title": "Inside Ukrainian offensive pushing Russia back - with Starlink playing a key role",
-      "summary": "The BBC joins Ukraine's Operation Vivaldi as it regains crucial territory in the Donbas, but optimism has been dampened by souring relations with President Trump.",
-      "category": "world",
-      "sourceName": "BBC News",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cvx284w16z1po?at_medium=RSS&at_campaign=rss"
-    },
-    {
-      "title": "Iran’s president condemns environmental impact of war in Middle Eas",
-      "summary": "Iranian President Masoud Pezeshkian has decried the ecological damage caused by conflict in the Middle East",
-      "category": "world",
-      "sourceName": "Al Jazeera",
-      "sourceUrl": "https://www.aljazeera.com/video/newsfeed/2026/10/16/irans-president-condemns-environmental-impact-of-war-in-middle-eas?traffic_source=rss"
-    },
-    {
-      "title": "Pope pictured for first time since surgery and cancer diagnosis",
-      "summary": "The pontiff was diagnosed with lung cancer after having surgery at Rome's Gemelli Hospital on Tuesday.",
-      "category": "world",
-      "sourceName": "BBC News",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cw146ej00yn7o?at_medium=RSS&at_campaign=rss"
-    },
-    {
-      "title": "Banks expect to be hit with higher taxes in Budget",
-      "summary": "Senior banking executives have told the BBC they expect to be \"on the menu\" in the chancellor's Budget tax later this month.",
-      "category": "economy",
-      "sourceName": "BBC Business",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/c32l4k2xdvrzo?at_medium=RSS&at_campaign=rss"
-    },
-    {
-      "title": "'Everything got worse': Gen Z express frustration, regret after Trump vote",
-      "summary": "'Everything got worse': Gen Z express frustration, regret after Trump vote",
-      "category": "politics",
-      "sourceName": "NPR",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMie0FVX3lxTE0yaHRFek4tTlppaU9mb3pDaEt3cGluNWx1Vnp2VktPbUt4TjRPLVFkRTBnNnk4cDVIaG5RN1JwVnJGb3V4dkNhWGpaMTU3czRmYkVUNDNaMGlNdW8wd01mdGYySHdyZ2dPSF9LeXNzR2p6ajRMNEUzcmxVcw?oc=5"
-    },
-    {
-      "title": "Oregon Live Updates: Police Investigate Deadly School Shooting in Bend",
-      "summary": "Oregon Live Updates: Police Investigate Deadly School Shooting in Bend",
-      "category": "world",
-      "sourceName": "The New York Times",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiekFVX3lxTE94dDZlRE5iVlF0ZHpEYlJHRHdITEpudTBSWFBvajFYcHloQ2Z5TmJ5SEVwa29Idkx2M2hNdFpoMG5kbjJPMjluUzZycFhTaE9oVlVORWxqZkNjbFUxZ1JNWE1FT0dxTnQzaGZLU0psaXB0X0VPMDkwWkdR?oc=5"
-    },
-    {
-      "title": "Protests spread in Indonesia as anger mounts over forest fires and haze",
-      "summary": "Protests spread in Indonesia as anger mounts over forest fires and haze",
-      "category": "world",
-      "sourceName": "The Straits Times",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxObFl4NUZzdUcyY2E1aEFENjJSUlRXaVZfajgycVdSTkpJUUxoYlpUQkQwTi1HY3U4Um9HUDVKV1NQZklyZmFKaC1PTjlhcWVXd3o0V2FNUjVlNmRUMEJGSlFCbDUyekgwYWthOGx3MXVxZ05XZkZTZnFCaTBwRnVQblktTzF5aGZqcXhJYWZvQXZ6VDMyVWtRNjVYVTB1RXlUZVhjZVB2aWNydnBQNlg2QlF5TQ?oc=5"
-    },
-    {
-      "title": "SIA flight returns to San Francisco almost 9 hours after departure over 'unruly' passenger",
-      "summary": "SIA flight returns to San Francisco almost 9 hours after departure over 'unruly' passenger",
+      "title": "Few use Singapore haze shelters, but visitors welcome respite from heat",
+      "summary": "Few use Singapore haze shelters, but visitors welcome respite from heat",
       "category": "world",
       "sourceName": "CNA",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxORXlENFhaVmhhd1FWbk5jUWlBbkZGSXliYUVYeDNDeVkwWFBzZTVyc0thYXRlQzdzZEZ6N05PQVJ1R19acGRURlpPSWxYellMNDkzanNQQmxJano5V21kNW9QRndPWjFUSWZMTXRyV3lLY3lWMHZBamRpVDllU1ZSejUxTTlVaXBlM0ZIVVVjT0xkdzY1ZHpkUy0tZ09vZHN6cTVfSU1lU04?oc=5"
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNM2tSVy1SMTdjVVQ0aXJicVYwZG5UbVBEWEdveE9mNHV3LVU1dDczWXZrRkVrZ0c3alNBMUc0aTYwaHRETFVFYWE2OERPNW9DUE1tR2l5U1dHdVVEb1o4allmM1lUSW1vWU5sV2dqZHZQZkpWR3dzYjRzdlZZYjc1T2VNTDhiTVdHd0xqRmFCYl9sZm5oeGZpenJ0WklibEZtWFpOV0luZUg?oc=5"
     },
     {
-      "title": "Oregon Live Updates: Police Investigate Deadly School Shooting in Bend",
-      "summary": "Oregon Live Updates: Police Investigate Deadly School Shooting in Bend",
-      "category": "world",
-      "sourceName": "The New York Times",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiekFVX3lxTE94dDZlRE5iVlF0ZHpEYlJHRHdITEpudTBSWFBvajFYcHloQ2Z5TmJ5SEVwa29Idkx2M2hNdFpoMG5kbjJPMjluUzZycFhTaE9oVlVORWxqZkNjbFUxZ1JNWE1FT0dxTnQzaGZLU0psaXB0X0VPMDkwWkdR?oc=5"
-    },
-    {
-      "title": "Latest poll shows Bolsonaro maintaining edge over Lula in Brazil run-off",
-      "summary": "Experts still consider race a toss up despite slate of polls showing right-wing senator leading left-wing president.",
-      "category": "world",
-      "sourceName": "Al Jazeera",
-      "sourceUrl": "https://www.aljazeera.com/news/2026/10/16/latest-poll-shows-bolsonaro-maintaining-edge-over-lula-in-brazil-run-off?traffic_source=rss"
-    },
-    {
-      "title": "Severe drought declared and hosepipe bans in force - is your area affected?",
-      "summary": "Parts of southern England have entered \"severe drought\", while about 30 million people are under hosepipe ban.",
-      "category": "science",
-      "sourceName": "BBC Science",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/crk661074ejo?at_medium=RSS&at_campaign=rss"
-    },
-    {
-      "title": "Living with a stink? Technology might help",
-      "summary": "Smells from rubbish dumps and industrial facilities are being more carefully monitored.",
-      "category": "science",
-      "sourceName": "BBC Science",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cr6240q1w136o?at_medium=RSS&at_campaign=rss"
-    },
-    {
-      "title": "Oregon Live Updates: Police Investigate Deadly School Shooting in Bend",
-      "summary": "Oregon Live Updates: Police Investigate Deadly School Shooting in Bend",
+      "title": "Children too have fundamental right to access internet; can't deny it citing online harm: Supreme Court",
+      "summary": "Children too have fundamental right to access internet; can't deny it citing online harm: Supreme Court",
       "category": "politics",
-      "sourceName": "The New York Times",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiekFVX3lxTE94dDZlRE5iVlF0ZHpEYlJHRHdITEpudTBSWFBvajFYcHloQ2Z5TmJ5SEVwa29Idkx2M2hNdFpoMG5kbjJPMjluUzZycFhTaE9oVlVORWxqZkNjbFUxZ1JNWE1FT0dxTnQzaGZLU0psaXB0X0VPMDkwWkdR?oc=5"
+      "sourceName": "Bar and Bench",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOUnJhcTZXYzl6NGI3VDRCaHl4LUxURTdVLU84UTU1bGdObVNZYTdnaVZVdVZySVBnQWdqMHB3aExSR1owbkFkd0x2clliZ1FiWXZENEVZVXFxVGJBanhiaTcwb3FVTWh4clFpMTVBWVg1SmxYNDNmYWxRTkE5em0zQVM0UTNIZTY5dGpIdC1DV3VWVlRQVzZVTkJUa09oU0VHTERQaGRmRVo4NTF5UnlrTW5TOXl3REx6RHFVd2o2M1dYcWg1MHc0RVUtZk5mWFBFRklWYkFaeko2dm130gHqAUFVX3lxTE1rWEVVTmdXWFNpSlBUQTg4RkxyUjByeTdvQXQ1Y3hQMkZHV3NQanJkUkM1OGM1VzRUeFNQSkdBN0stX2FPOEV2WG9Db2phYk5wSmIyOTJ3OHJhazNrSC13TU9BSmNnVW9RNG1saFlCcWxhR0xHVVpvVUwtSHlTalJ5SHl2WExJa1NxSVpwUmdFMm1wYXlqemFCc3pacjlXeEI4cHM2X2FQYTBvNTc3cmg0a3FXV0V2ZlRvb29nS2N0cEh1cDN3aHVza2J4ZFd1REdpX1NnR3N4RnVzQ2ljUzJscWZ6Q2VyNURrdw?oc=5"
     },
     {
-      "title": "Palestinians and US journalist injured by Israeli settlers in West Bank harvest attack",
-      "summary": "The BBC sees masked settlers attack Palestinians trying to harvest olives, amid a surge in similar incidents.",
+      "title": "Katie Zacharia quits as White House press secretary five days into job",
+      "summary": "Katie Zacharia quits as White House press secretary five days into job",
+      "category": "world",
+      "sourceName": "BBC",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9IMTR3VHR5Vm9QUlJyLUxPa3o2SHVEdUV3RkdwSzljMXJ1amZNUXljR0ktTkxWV0c1T0otZFBrYmdwQ3E3Xy1YOUxmb1RyNEQ3Y3EyWDZnRnVLZGM?oc=5"
+    },
+    {
+      "title": "Three men jailed for 158 years each for murdering Australian and US surfers in Mexico",
+      "summary": "Brothers Jake and Callum Robinson and their friend Carter Rhoad were killed on a surfing trip in an apparent botched robbery.",
       "category": "world",
       "sourceName": "BBC News",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/c65ynk7212vqo?at_medium=RSS&at_campaign=rss"
-    },
-    {
-      "title": "NCW takes suo motu cognisance of viral video showing alleged misconduct by J&K IAS officer",
-      "summary": "NCW takes suo motu cognisance of viral video showing alleged misconduct by J&K IAS officer",
-      "category": "politics",
-      "sourceName": "Greater Kashmir",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQblhIRk53T0N4Xy1iZl9kVFB5RjNsYldyTFJCdXp6QVJkd0ZmaVg1Y3p0QWJRajBoVkl4RDdQbDZ0TXYzUjVzRWcwT1hOSVR1Z0xfVE5hbEQtU3pmNi00RGI3WTZRY19lVzBZLUZnS1l2YTZNOHZKOWl3TTRlSExOTWc1NjRPTFFZOGpqaHZ1NmhyNEI1TmZoeHpqd2t5OE1lb3pQOXVuQ3o2TEtmdDMtdkMxaUp3cmMtRU5kRTc4NVUxU0ZWZnlV0gHMAUFVX3lxTE1xNlVlWk1UTjZqa0g1VS1pY1ZxelE4VU1rcTVCb05sY0dHcHZqeW5jRG1Pal9vVFREdU53blZWNnB5dlFqcmJGREYzR0lza3RJY0ZIVGxac1dMd25adzlUTkxoZnd4SHpXT0hUTFd3QS1YRnBCYllwTkROTjRYLTNBeFl4YXVzQ1htbkMzVm93NndYX3l3U0JYdmpqMmtNcEhBcVBVZzZMTHdkbkoxRmNCdF81eU1ET2NkQ0ZFQUlNQ2pVa0tURU5fa1FyTQ?oc=5"
-    },
-    {
-      "title": "Israeli settlers beat Palestinians and a U.S. photojournalist in West Bank attacks",
-      "summary": "Masked Israeli settlers attacked Palestinians as they were harvesting olives in the occupied West Bank on Friday, injuring several people including a photojournalist working for The Washington Post.",
-      "category": "world",
-      "sourceName": "NPR",
-      "sourceUrl": "https://www.npr.org/2026/10/16/nx-s1-6004904/israeli-settlers-beat-us-photojournalist-washington-post-west-bank"
-    },
-    {
-      "title": "US senators call for investigation into Ukraine's Starlink restrictions",
-      "summary": "US senators call for investigation into Ukraine's Starlink restrictions",
-      "category": "world",
-      "sourceName": "BBC",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9NQXV2ajZZY3BUWGhPUWp3Tkxwd0tsT3VMTW81d3h2T1h4M0NWLWpPZ0Rna2w5ZzlNLWFCak9rbElPT0F1M1lMYlJiMVJrX29YYWlWNzBXakRTWmc?oc=5"
-    },
-    {
-      "title": "US senators call for investigation into Ukraine's Starlink restrictions",
-      "summary": "US senators call for investigation into Ukraine's Starlink restrictions",
-      "category": "politics",
-      "sourceName": "BBC",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9NQXV2ajZZY3BUWGhPUWp3Tkxwd0tsT3VMTW81d3h2T1h4M0NWLWpPZ0Rna2w5ZzlNLWFCak9rbElPT0F1M1lMYlJiMVJrX29YYWlWNzBXakRTWmc?oc=5"
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/c3kgqjkzw29wo?at_medium=RSS&at_campaign=rss"
     },
     {
       "title": "I find it quite demoralising in store - why I do all my shopping online",
@@ -185,32 +45,172 @@
       "sourceUrl": "https://www.bbc.co.uk/news/articles/c36lk280kd1o?at_medium=RSS&at_campaign=rss"
     },
     {
-      "title": "Obafemi George: No law mandates Tinubu to visit all 36 states for campaign rallies",
-      "summary": "Obafemi George: No law mandates Tinubu to visit all 36 states for campaign rallies",
+      "title": "Brazil sees record fall in Amazon deforestation as key election looms",
+      "summary": "The Amazon rainforest is a crucial buffer against climate change - but deforestation had expanded under former president Jair Bolsonaro.",
       "category": "world",
-      "sourceName": "TheCable",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQanZfeVpVSnduLVFwbk1xUVAzdjg1eEpKMVMybVVCYlduQldueGxLeHhvMll3ZGVsenpkajdNX3J3LURLU1lrS0hWMUtXZlNTcTNqVVktRzAtUFdYaDBnRm1rVEdMNjMtT010Q0lqdzNQMWhHbDFxcnVjY1N2dkYyMy1JTGJXVDNnV3NxZlBvdTNmSjdMQm1aZEtnMXlvMHJoZzRudEZ1YklFdw?oc=5"
+      "sourceName": "BBC News",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cqe8rzg6zl00o?at_medium=RSS&at_campaign=rss"
     },
     {
-      "title": "Sparks fly at the Celebrity Traitors round table and a 'terrifying' death parade",
-      "summary": "The celebrities turn on each other at the round table, and have to beat the death walkers for their mission.",
-      "category": "culture",
-      "sourceName": "BBC Culture",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cq4g17j1ej95o?at_medium=RSS&at_campaign=rss"
+      "title": "'Heroic' teacher fought with gunman before parent shot suspect who killed four at Oregon school",
+      "summary": "'Heroic' teacher fought with gunman before parent shot suspect who killed four at Oregon school",
+      "category": "politics",
+      "sourceName": "Sky News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQaHZ2TFRtNzRsX2taVDlnUjEtanRlRlZrWnRZM3Y1NWZkZmFYcTF4ZjVFTk9VRWRjRjk2TmFnb2piTGZDNEQwVEhQR2hwX1IwTFlCMG9tanl3bC01U1hiNW5Xc24tWWtyVVlZSDllZm55aFhheFg1MFluZlFTWHZGNTNGTFh2a3hvRmhXdld4dHlOWU44ZHlHM0NISVVtZ0NzQnVVdjRKTXdoRmpFSGZWVlRockt2Q0xaYTBxM1FhcUk4VVR6TTJaRg?oc=5"
     },
     {
-      "title": "Spain to appeal to CAS after FIFA penalty for Islamophobic chants",
-      "summary": "Spain appeals to Court of Arbitration for Sport following FIFA sanctions for fans' behaviour during Egypt friendly.",
+      "title": "Neto’s brace fires Chelsea past Everton but Martinez head injury mars win",
+      "summary": "Argentinian international taken to hospital for precautionary tests after head clash with Everton's Jarrad Branthwaite.",
       "category": "world",
       "sourceName": "Al Jazeera",
-      "sourceUrl": "https://www.aljazeera.com/sports/2026/10/16/spain-to-appeal-to-cas-after-fifa-penalty-for-islamophobic-chants?traffic_source=rss"
+      "sourceUrl": "https://www.aljazeera.com/sports/2026/10/17/neto-brace-fires-chelsea-past-everton-but-martinez-head-injury-mars-win?traffic_source=rss"
     },
     {
-      "title": "'Everything got worse': Gen Z express frustration, regret after Trump vote",
-      "summary": "'Everything got worse': Gen Z express frustration, regret after Trump vote",
+      "title": "World Food Day: First Lady seeks innovation, stronger support for farmers",
+      "summary": "World Food Day: First Lady seeks innovation, stronger support for farmers",
+      "category": "world",
+      "sourceName": "The Nation Newspaper",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQU3QxeF9BU2R2clBOekpxQ1NoSUpYSnNWZXlpblhFdm83VklIWU83c3JXaklGQVozaVoyTW5NXzZzUlFWYXVQTExTOF9rVXMwZ0Y2cGRySk16Z0VoS1JnZFU4blFHeGNWd0dUT0l4Wk5xYS15Z1UxemctSWFDWklVelFhdFRZZkV0M1psYWRGYkMyT2FVeXhQQlVUSmMwN0dnUDdRUE5fa9IBrAFBVV95cUxQTHNfVHdvN0JyZzdrOVcwLTUwY21zcTk0OWJqWVRVSXRkY0JlcUhKRjc5R0FnZEdRX3EzNDY1Y3NrTV9iclhvMGlpNEdSUktpWDduc2FGc3Exdzlzb0d0Zm0tU3dSRno2UUU4b1pZMEZyT0ZadjYydGtyTWtwam0wanlucGpxWWk3UnJDRVRlb3htXzU2QzAzOHN3YWhneWxxYVFENzdwNGkxb25G?oc=5"
+    },
+    {
+      "title": "HDB sheds light on 'small' kitchen of Tengah BTO flat in viral video, Singapore News",
+      "summary": "HDB sheds light on 'small' kitchen of Tengah BTO flat in viral video, Singapore News",
+      "category": "world",
+      "sourceName": "AsiaOne.com",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQbTVERHRhMENMNVJ0REVKc0g1MW5ISjFQS09aWFQ0dGgxVlczN1JSN01lbV8zaEJ5ekxJemppT2ZMQXdvVU9IQ2dxUDZaNERkV2JKY2VuZXdoV2ZwNEJtamlQWWdvaV9lS1lWZDh5V0loU0FsdnBaUnJ3Ny10U3lLXzJZUVRkeVJ4ZHpGVExn?oc=5"
+    },
+    {
+      "title": "Woman says she was left 'bewildered and confused' by alleged Russell Brand assault",
+      "summary": "The 51-year-old faces three counts of rape, three of sexual assault and one of indecent assault, all of which he denies.",
+      "category": "culture",
+      "sourceName": "BBC Culture",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/ck8dz6m1d2n6o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "title": "Katie Zacharia quits as White House press secretary five days into job",
+      "summary": "Katie Zacharia quits as White House press secretary five days into job",
+      "category": "world",
+      "sourceName": "BBC",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9IMTR3VHR5Vm9QUlJyLUxPa3o2SHVEdUV3RkdwSzljMXJ1amZNUXljR0ktTkxWV0c1T0otZFBrYmdwQ3E3Xy1YOUxmb1RyNEQ3Y3EyWDZnRnVLZGM?oc=5"
+    },
+    {
+      "title": "Watch: Did Tesla really just unveil a flying car?",
+      "summary": "Tesla CEO Elon Musk showcased the vehicle at a facility owned by his SpaceX company, which helped develop the model.",
+      "category": "economy",
+      "sourceName": "BBC Business",
+      "sourceUrl": "https://www.bbc.co.uk/news/videos/ckly4mj1g3n9o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "title": "Anti-CEC protest LIVE | SEM court releases Dipke after signing of bond",
+      "summary": "Anti-CEC protest LIVE | SEM court releases Dipke after signing of bond",
+      "category": "politics",
+      "sourceName": "The Hindu",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOT3pBdVJkQnNMR0xRNElqeEk2Q0JSSlFCdWNUS2JRYnpENVA2YkNlNVd3WmpHZldtNEZWay1SR0JrTHhGenM2anltT0l1SGFFdFViam10V2FpN21JZGxIMWtqaWwzTUVVVXNINDl1a3E1NTdmcTgxUkhXZmdGUUd3cjQ4QVhfUUFkeld5c2Y2Qi1Bc1Fqay1LU2JXUXRlXzh2d1JFWmdWRjlUYnFCaXFtTzZQSWNRN01KWm51Y2JoWVlDSVduc1h2bW1kRmdDLXJkdXRUaXFHVUdQcjltTkdERkI0TVc4RWlRVTJBRzJPazJScDFhS1kxaWpyQThzUQ?oc=5"
+    },
+    {
+      "title": "Thousands rally for biggest protest in years against Tunisia’s Saied",
+      "summary": "Unions, opposition groups unite to demonstrate against poor living conditions and restrictions on political freedoms.",
+      "category": "world",
+      "sourceName": "Al Jazeera",
+      "sourceUrl": "https://www.aljazeera.com/news/2026/10/17/thousands-rally-for-biggest-protest-in-years-against-tunisias-saied?traffic_source=rss"
+    },
+    {
+      "title": "Avian flu and costs among reasons for loss of captive birds at Castle Espie",
+      "summary": "Difficulties in transporting animals since Brexit has contributed to the decline in the number of captive birds.",
+      "category": "science",
+      "sourceName": "BBC Science",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/c6m24e1ln130o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "title": "Zelenskyy says Trump is ‘rewarding Putin’ as he waives new Russia sanctions passed by Congress",
+      "summary": "Zelenskyy says Trump is ‘rewarding Putin’ as he waives new Russia sanctions passed by Congress",
+      "category": "world",
+      "sourceName": "NBC News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQSUF6amxpY2lMcWdiQ09tRkNjZjZGWjFyemRBN2kyQmx3RUl2ZlN6cDJLN3ZOeFBYZEJucUpHNWpNRHpsZFh4UmkxMFZ6ak1OQ1pVemhGaEtSOGJENXljeVItbGlZUUxMNG5LSmNacXZHSjVoOTRyLTZrcTJmZ2prSWctNkE2eEYwcG15bWJnQVlWUkNKdUZKODVZSHhYellTLWNFZnkzMEFiT1FKak1adHVqV25DLUFWWC1uMDIyc0dYX0lSVFRmdDRnUVlEd094?oc=5"
+    },
+    {
+      "title": "Zelenskyy says Trump is ‘rewarding Putin’ as he waives new Russia sanctions passed by Congress",
+      "summary": "Zelenskyy says Trump is ‘rewarding Putin’ as he waives new Russia sanctions passed by Congress",
+      "category": "world",
+      "sourceName": "NBC News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQSUF6amxpY2lMcWdiQ09tRkNjZjZGWjFyemRBN2kyQmx3RUl2ZlN6cDJLN3ZOeFBYZEJucUpHNWpNRHpsZFh4UmkxMFZ6ak1OQ1pVemhGaEtSOGJENXljeVItbGlZUUxMNG5LSmNacXZHSjVoOTRyLTZrcTJmZ2prSWctNkE2eEYwcG15bWJnQVlWUkNKdUZKODVZSHhYellTLWNFZnkzMEFiT1FKak1adHVqV25DLUFWWC1uMDIyc0dYX0lSVFRmdDRnUVlEd094?oc=5"
+    },
+    {
+      "title": "Decades after apartheid, South Africans seek justice for crimes of the past",
+      "summary": "More than three decades after the end of apartheid, families of victims of some of the worst crimes of South Africa's pastare still fighting for justice. As survivors and perpetrators grow older, a new wave of legal…",
       "category": "world",
       "sourceName": "NPR",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMie0FVX3lxTE0yaHRFek4tTlppaU9mb3pDaEt3cGluNWx1Vnp2VktPbUt4TjRPLVFkRTBnNnk4cDVIaG5RN1JwVnJGb3V4dkNhWGpaMTU3czRmYkVUNDNaMGlNdW8wd01mdGYySHdyZ2dPSF9LeXNzR2p6ajRMNEUzcmxVcw?oc=5"
+      "sourceUrl": "https://www.npr.org/2026/10/17/nx-s1-5987671/south-africa-justice-sharpeville-apartheid"
+    },
+    {
+      "title": "Katie Zacharia quits as White House press secretary five days into job",
+      "summary": "Katie Zacharia quits as White House press secretary five days into job",
+      "category": "politics",
+      "sourceName": "BBC",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9IMTR3VHR5Vm9QUlJyLUxPa3o2SHVEdUV3RkdwSzljMXJ1amZNUXljR0ktTkxWV0c1T0otZFBrYmdwQ3E3Xy1YOUxmb1RyNEQ3Y3EyWDZnRnVLZGM?oc=5"
+    },
+    {
+      "title": "'Heroic' teacher fought with gunman before parent shot suspect who killed four at Oregon school",
+      "summary": "'Heroic' teacher fought with gunman before parent shot suspect who killed four at Oregon school",
+      "category": "world",
+      "sourceName": "Sky News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQaHZ2TFRtNzRsX2taVDlnUjEtanRlRlZrWnRZM3Y1NWZkZmFYcTF4ZjVFTk9VRWRjRjk2TmFnb2piTGZDNEQwVEhQR2hwX1IwTFlCMG9tanl3bC01U1hiNW5Xc24tWWtyVVlZSDllZm55aFhheFg1MFluZlFTWHZGNTNGTFh2a3hvRmhXdld4dHlOWU44ZHlHM0NISVVtZ0NzQnVVdjRKTXdoRmpFSGZWVlRockt2Q0xaYTBxM1FhcUk4VVR6TTJaRg?oc=5"
+    },
+    {
+      "title": "Zelenskyy urges support for new US sanctions on Russia after Trump puts them on hold",
+      "summary": "Zelenskyy described the move as unfortunate, adding it would encourage Russia to continue its assault. Trump told Congress that the pause was in the national interest but gave no further details.",
+      "category": "world",
+      "sourceName": "NPR",
+      "sourceUrl": "https://www.npr.org/2026/10/17/nx-s1-6006745/us-sanctions-russia"
+    },
+    {
+      "title": "Brazil sees record fall in Amazon deforestation as key election looms",
+      "summary": "The Amazon rainforest is a crucial buffer against climate change - but deforestation had expanded under former president Jair Bolsonaro.",
+      "category": "science",
+      "sourceName": "BBC Science",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cqe8rzg6zl00o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "title": "PHOTOS: Shettima, Akpabio, Sanwo-Olu, Others Attend Oyebanji’s Second-Term Inauguration In Ekiti",
+      "summary": "PHOTOS: Shettima, Akpabio, Sanwo-Olu, Others Attend Oyebanji’s Second-Term Inauguration In Ekiti",
+      "category": "world",
+      "sourceName": "Channels Television",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNaUJzNWxDdHlXNTdtQWpHYUFyLV9QSzk5YnlibXVwZWZncll1S21haTVSZDlQWTRUa0JqWWNUSmgyTmQ0NUJXajFnSUtlM3JlY2Z0bzRnY25nOHhmajY1bzhFcEpsNnVjUEhJSngzbmdvb3BYVmQ3ZkZ3VkFkanJSdHJGSWNNTzQzem1pRUNOenhWMU9ZLWM5WjVvQXU2Si1mTzlwbTRTR21tYUZUTUtDdlJBYy16dnNQVUEwb1J4bjlPWXR0N3ZGWlpB?oc=5"
+    },
+    {
+      "title": "Why adults are going back to summer camp",
+      "summary": "Loneliness and burnout are sending adults around the world back to bunk beds and bonfires.",
+      "category": "world",
+      "sourceName": "Al Jazeera",
+      "sourceUrl": "https://www.aljazeera.com/features/longform/2026/10/17/why-adults-are-going-back-to-summer-camp?traffic_source=rss"
+    },
+    {
+      "title": "'Heroic' teacher fought with gunman before parent shot suspect who killed four at Oregon school",
+      "summary": "'Heroic' teacher fought with gunman before parent shot suspect who killed four at Oregon school",
+      "category": "world",
+      "sourceName": "Sky News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQaHZ2TFRtNzRsX2taVDlnUjEtanRlRlZrWnRZM3Y1NWZkZmFYcTF4ZjVFTk9VRWRjRjk2TmFnb2piTGZDNEQwVEhQR2hwX1IwTFlCMG9tanl3bC01U1hiNW5Xc24tWWtyVVlZSDllZm55aFhheFg1MFluZlFTWHZGNTNGTFh2a3hvRmhXdld4dHlOWU44ZHlHM0NISVVtZ0NzQnVVdjRKTXdoRmpFSGZWVlRockt2Q0xaYTBxM1FhcUk4VVR6TTJaRg?oc=5"
+    },
+    {
+      "title": "Pope Leo XIV leaves hospital days after lung cancer surgery",
+      "summary": "The Pope left Rome's Gemelli Hospital Saturday, days after surgery for lung cancer removed the lower lobe of his right lung. He is currently scheduled to travel to Latin America in November.",
+      "category": "world",
+      "sourceName": "NPR",
+      "sourceUrl": "https://www.npr.org/2026/10/17/nx-s1-6006762/pope-leo-xiv-leaves-hospital-days-after-lung-cancer-surgery"
+    },
+    {
+      "title": "'Heroic' teacher fought with gunman before parent shot suspect who killed four at Oregon school",
+      "summary": "'Heroic' teacher fought with gunman before parent shot suspect who killed four at Oregon school",
+      "category": "world",
+      "sourceName": "Sky News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQaHZ2TFRtNzRsX2taVDlnUjEtanRlRlZrWnRZM3Y1NWZkZmFYcTF4ZjVFTk9VRWRjRjk2TmFnb2piTGZDNEQwVEhQR2hwX1IwTFlCMG9tanl3bC01U1hiNW5Xc24tWWtyVVlZSDllZm55aFhheFg1MFluZlFTWHZGNTNGTFh2a3hvRmhXdld4dHlOWU44ZHlHM0NISVVtZ0NzQnVVdjRKTXdoRmpFSGZWVlRockt2Q0xaYTBxM1FhcUk4VVR6TTJaRg?oc=5"
+    },
+    {
+      "title": "Banks expect to be hit with higher taxes in Budget",
+      "summary": "Senior banking executives have told the BBC they expect to be \"on the menu\" in the chancellor's Budget tax later this month.",
+      "category": "economy",
+      "sourceName": "BBC Business",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/c32l4k2xdvrzo?at_medium=RSS&at_campaign=rss"
     }
   ]
 }
