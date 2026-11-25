@@ -1,216 +1,174 @@
 {
-  "generatedAt": "2026-11-24T22:48:58.997884+00:00",
-  "dateLabel": "November 24, 2026",
+  "generatedAt": "2026-11-25T22:01:24.824840+00:00",
+  "dateLabel": "November 25, 2026",
   "items": [
     {
-      "title": "Huawei found guilty of stealing trade secrets but acquitted of racketeering",
-      "summary": "Huawei found guilty of stealing trade secrets but acquitted of racketeering",
-      "category": "world",
-      "sourceName": "BBC",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1Ob0RXbGVjVm9xcjdLQkl6UW9ndDFEcjViS0lpN1c4RW9BX1RBYzNzcmhyN0lVN3JnSU1nY1JDN2ZRemYyY2wzUm9GcjNsMC03cXlGSnRZWTgtTjQ?oc=5"
-    },
-    {
-      "title": "The human cost of the electric vehicle boom is at the center of a lawsuit in Congo",
-      "summary": "A landmark lawsuit in Congo sees 27 residents accuse a Chinese-owned copper and cobalt mine of poisoning their community and the government of failing to protect them.",
-      "category": "world",
-      "sourceName": "NPR",
-      "sourceUrl": "https://www.npr.org/2026/11/24/nx-s1-6042912/drc-congo-mining-china-copper-colbalt-critical-minerals"
-    },
-    {
-      "title": "New US Tariffs Coming, India Could Be Hit Harder Than Japan And EU: Report",
-      "summary": "New US Tariffs Coming, India Could Be Hit Harder Than Japan And EU: Report",
-      "category": "politics",
-      "sourceName": "NDTV Profit",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQQTNkdDZhLWpQNkQxWjVwNzB0ZGJXUExTYktTQ2lsbkxxeUVDY185aEFzdUJXRlVROTVUbFRpQnRiTWdHUFlSck1qTVE0ZXFXd1VjTF9GWGxPQ1J0MTVERWRmS01YUXZoVy1rYkFoVmhwa3ZjRkhtcG1mX0tZR1dLdGJFZWx2Q0ZaYmk0OWVQQW9hMDBqNk9vOXNieW5KRjUwNUlNRzlWbmJGd2sxdmM5VFVvYlU?oc=5"
-    },
-    {
-      "title": "Todd Blanche declines to confirm if Nvidia’s Jensen Huang was investigated",
-      "summary": "The US attorney general refused to discuss claims by Donald Trump that his administration conducted a 'thorough' probe.",
-      "category": "world",
-      "sourceName": "Al Jazeera",
-      "sourceUrl": "https://www.aljazeera.com/news/2026/11/24/todd-blanche-declines-to-confirm-if-nvidias-jensen-huang-was-investigated?traffic_source=rss"
-    },
-    {
-      "title": "Faisal Islam: Fears over the AI boom haven't gone away",
-      "summary": "There were legitimate fears before Huang's abrupt exit from Nvidia - and his return won't fix it",
-      "category": "economy",
-      "sourceName": "BBC Business",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/c6894evgpel5o?at_medium=RSS&at_campaign=rss"
-    },
-    {
-      "title": "Colombian president blames ex-FARC rebels for car bomb blast",
-      "summary": "Colombian President De la Espriella blames the FARC for plotting a bombing that injured tens and pledges to retaliate.",
-      "category": "world",
-      "sourceName": "Al Jazeera",
-      "sourceUrl": "https://www.aljazeera.com/news/2026/11/24/colombian-president-blames-ex-farc-rebels-for-car-bomb-blast?traffic_source=rss"
-    },
-    {
-      "title": "Live storm updates: Record king tides leave Bay Area roads flooded",
-      "summary": "Live storm updates: Record king tides leave Bay Area roads flooded",
-      "category": "world",
-      "sourceName": "ABC7 Bay Area",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOdlJ3bzd6dnZTdzZrYTR5RWRnNTF1OE1IXy1hME8zVWlNdFBjZXBtQVo1VER5NF9YelIyZXlQWkxSbzU0SUxWdUlYVzMzZmVKVW8tM3ZKSkJybEI1eGcwZEhjMzhSZUtPNDRsRHh2ZVRpUkpLelJsSGRHTzVkelZlSXNLQ0M5Tk1iX0R3eVFuT3piRFdpU3BmZi1JQkxicEk2MTk2TUNjRGRESUlwNWdkeXRuMkZiZGJjRWFPOGlIaUw1SVhzWFpxX3V1a3ljT2xFRjhJckFVeFZtWFhZUmxFX0g4NHpXZjBka0tNdHdGc3VlT3g4?oc=5"
-    },
-    {
-      "title": "US army maps show projected path of toxic dust from Iowa detonation",
-      "summary": "US army maps show projected path of toxic dust from Iowa detonation",
-      "category": "world",
-      "sourceName": "The Guardian",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1lNVJ2R0Q3RnJaNUJFT3Jockx3ZkI3U3hUMWVZcFhndXB3VDNaUEg5a1NKZ3NEQlBlWmlyU1JTNGZSdTBqT3lEZHlNM3pPWm1kMEhOdjJtdWQwRnJJNTJMU1BjMXk1S01qaWlSRWRSTGlFT25pc3Ffejd5NA?oc=5"
-    },
-    {
-      "title": "US attorney general dodges questions about Nvidia investigation",
-      "summary": "Nvidia's share price have fallen 7% as lawmakers demand answers about President Donald Trump's involvement in Huang's reinstatement.",
-      "category": "economy",
-      "sourceName": "BBC Business",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/crpdw1qx7jgxo?at_medium=RSS&at_campaign=rss"
-    },
-    {
-      "title": "Huawei found guilty of stealing trade secrets but acquitted of racketeering",
-      "summary": "The verdict follows a months-long trial in New York.",
-      "category": "economy",
-      "sourceName": "BBC Business",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cmy49ngydqzpo?at_medium=RSS&at_campaign=rss"
-    },
-    {
-      "title": "Anambra Intensifies HIV Campaign Ahead of World AIDS Day",
-      "summary": "Anambra Intensifies HIV Campaign Ahead of World AIDS Day",
-      "category": "world",
-      "sourceName": "Voice of Nigeria",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPSGFLMnEzeWdfS2w4WjJmMHppZ1FyR1MyUllkZ0tkWU5xMkd0RnBla3lldTFRYkZLMDF5alkxUy1fQU5wa2hBQ0dJV0V0eEtNZi13WlliMVdFd2E0M3l5dnVGUElKNEhsR3JHcy1vQkN0MHVFLXlzZ2xRN2FjamFoY1pR?oc=5"
-    },
-    {
-      "title": "Indian government has 'lost the plot', says 'cockroach' leader barred from UK flight",
-      "summary": "Saurav Das says immigration authorities at Delhi airport told him his passport had been flagged.",
-      "category": "world",
-      "sourceName": "BBC News",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cm5y1ezx2gqyo?at_medium=RSS&at_campaign=rss"
-    },
-    {
-      "title": "China’s Huawei found guilty of trade secrets conspiracy, fraud in US trial",
-      "summary": "Jurors acquit the company of the most serious charge it faced of engaging in a criminal racketeering conspiracy.",
-      "category": "world",
-      "sourceName": "Al Jazeera",
-      "sourceUrl": "https://www.aljazeera.com/economy/2026/11/24/chinese-tech-giant-huawei-found-guilty-of-conspiracy-to-steal-trade-secrets?traffic_source=rss"
-    },
-    {
-      "title": "Huawei found guilty of stealing trade secrets but acquitted of racketeering",
-      "summary": "Huawei found guilty of stealing trade secrets but acquitted of racketeering",
-      "category": "world",
-      "sourceName": "BBC",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1Ob0RXbGVjVm9xcjdLQkl6UW9ndDFEcjViS0lpN1c4RW9BX1RBYzNzcmhyN0lVN3JnSU1nY1JDN2ZRemYyY2wzUm9GcjNsMC03cXlGSnRZWTgtTjQ?oc=5"
-    },
-    {
-      "title": "Huawei found guilty of stealing trade secrets but acquitted of racketeering",
-      "summary": "Huawei found guilty of stealing trade secrets but acquitted of racketeering",
-      "category": "politics",
-      "sourceName": "BBC",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1Ob0RXbGVjVm9xcjdLQkl6UW9ndDFEcjViS0lpN1c4RW9BX1RBYzNzcmhyN0lVN3JnSU1nY1JDN2ZRemYyY2wzUm9GcjNsMC03cXlGSnRZWTgtTjQ?oc=5"
-    },
-    {
-      "title": "Huawei found guilty of stealing trade secrets but acquitted of racketeering",
-      "summary": "The verdict follows a months-long trial in New York.",
-      "category": "world",
-      "sourceName": "BBC News",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cmy49ngydqzpo?at_medium=RSS&at_campaign=rss"
-    },
-    {
-      "title": "US Blacklists Alibaba-Owned Company in Setback to AI Ambitions",
-      "summary": "US Blacklists Alibaba-Owned Company in Setback to AI Ambitions",
-      "category": "world",
-      "sourceName": "Bloomberg.com",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNc2hMdW1ld1ZLcS1NQk9hNjN3Q3BrMFc2WUZvelRPS2dTMmNUYXVqbFkwOUJoei1URzV5WTNvalhfRUdxQldmcVdsV2F5VzUzdzhZR08wMFVlREVsZV9rcFNTel9SYkNMWk1EbW82ZGlyQjlCbjVOVExWeVJZOXpfckRGMEJTdUE3QkJvWTA0dERBOUVmakRfbzFfNG5tYlJqUnMteUJaWlE5NjA2cFVjejZYcw?oc=5"
-    },
-    {
-      "title": "US army maps show projected path of toxic dust from Iowa detonation",
-      "summary": "US army maps show projected path of toxic dust from Iowa detonation",
-      "category": "world",
-      "sourceName": "The Guardian",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1lNVJ2R0Q3RnJaNUJFT3Jockx3ZkI3U3hUMWVZcFhndXB3VDNaUEg5a1NKZ3NEQlBlWmlyU1JTNGZSdTBqT3lEZHlNM3pPWm1kMEhOdjJtdWQwRnJJNTJMU1BjMXk1S01qaWlSRWRSTGlFT25pc3Ffejd5NA?oc=5"
-    },
-    {
-      "title": "Substance released at concert could be linked to robberies, police say",
-      "summary": "Police are investigating a possible link between the Co-op Live evacuation and reported robberies.",
+      "title": "Gordon Ramsay to host Top Gear as show revived after Flintoff crash",
+      "summary": "Ramsay will take the driving seat alongside as yet unnamed co-presenters when the show starts filming next year.",
       "category": "culture",
       "sourceName": "BBC Culture",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cqrmgvnzwrm3o?at_medium=RSS&at_campaign=rss"
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cjr4gw100d52o?at_medium=RSS&at_campaign=rss"
     },
     {
-      "title": "Jensen Huang returns to Nvidia. And, Rep. Gomez resigns amid alleged sexual misconduct",
-      "summary": "President Trump took credit for negotiating Jensen Huang's return as CEO of Nvidia. And, Rep. Jimmy Gomez, D-Calif., says his resignation will be effective Dec. 1.",
-      "category": "world",
-      "sourceName": "NPR",
-      "sourceUrl": "https://www.npr.org/2026/11/24/g-s1-155227/up-first-newsletter-nvidia-jensen-huang-trump-ukraine-russia-jimmy-gomez"
+      "title": "Saudi-led coalition intercepts Houthi attacks after Hodeidah strike",
+      "summary": "Saudi-led coalition intercepts Houthi attacks after Hodeidah strike",
+      "category": "politics",
+      "sourceName": "Al Jazeera",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNTEVITC1LZkREZDRPbDhBOFk4TFN0eFZWSEk0RnJwUnR4aDFpb042SEwwcTRYXzNGSGhjcXg5S0lYMUQwcHRZSW1IU2gzYVRtY3pTenRONUl6bW9UNFItSk5YTXZwLWo4MkJTckxPdUQxUTJ4Mzl2Y1VTam84dllIU3hXOGdUOGhFRGpyUzRrQUU3RTI0blpwX05jSGI2bnRrRk9EMXAtTDVRTlpTRnfSAbMBQVVfeXFMTnBiR1EteFNjS2JTSjVyaF90TThMS2xpT2Nvd2wxbGtQLXE0aE9uNWkwNzExNjM2RHVxOEJEOTdFYnUwb2xLaElxdDZnZDVrc00zTGpfUGRZWWdGdFlOMUNsLXVKMmtoOUc1UVdtYi1CUEFqZUFsMGtvOEdJZjFXbEVhLTVPS0ZnUWdNb3BOV2ZHR2hOZjZQY2drZ3Y0QmFidUNLLWxCYTI3bU1GM3hVN0NqeVU?oc=5"
     },
     {
-      "title": "BBC and Netflix team up for new CBeebies hub on streamer",
-      "summary": "The limited trial will see a CBeebies hub on Netflix for the first time and will feature 24 programmes.",
-      "category": "culture",
-      "sourceName": "BBC Culture",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/c9zr585dxkgzo?at_medium=RSS&at_campaign=rss"
-    },
-    {
-      "title": "Record 5,200 heat-linked deaths estimated in England this year",
-      "summary": "The UK Health Security Agency says this year's number of deaths is twice that of the previous record year.",
+      "title": "Images of asteroid targeted to test Earth's defences reveal stadium-sized crater",
+      "summary": "The asteroid's surface was transformed after a spacecraft was deliberately crashed into it four years ago",
       "category": "science",
       "sourceName": "BBC Science",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cq2e83egrez3o?at_medium=RSS&at_campaign=rss"
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cw8dv112r5gmo?at_medium=RSS&at_campaign=rss"
     },
     {
-      "title": "Regina Omo-Agege Condemns Attack on Brother’s Campaign Team, Says ‘Politics Must Never Become a Death Sentence’",
-      "summary": "Regina Omo-Agege Condemns Attack on Brother’s Campaign Team, Says ‘Politics Must Never Become a Death Sentence’",
-      "category": "world",
-      "sourceName": "THISDAYLIVE",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNZUJIdVhqLWRnZUl6UXgtVlR3b1RqRzZmX2FmTVhuc1ZsbWoyeTVtOF9fbklkTTliZkVLeTJzTE54UDU2ZmV2bzhYVjJoX3VSZ0FDcjY3M2dlQV9vVnJYa1YySzhkUzdfQUVrc0RvWEQ2M1Ewc0Q0ZElQQkJGNnBvLTFKNk5BYmlzbzlaYjdVWFRyRUQxdDhtRTVRcmdYS1R6V2pjeWtlV1hSTWNkRFR0WmlaUE9hSnpLUGh4czBqb2pKUUtVQ0tUM0ZGZTY5alZUWGhBSDFFRkJxSTM1SGVHRw?oc=5"
-    },
-    {
-      "title": "Thiruparankundram Karthigai Deepam | Implement SC Order, Review Pendency No Ground For Non-Compliance :...",
-      "summary": "Thiruparankundram Karthigai Deepam | Implement SC Order, Review Pendency No Ground For Non-Compliance :...",
+      "title": "Thiruparankundram | Plea In Supreme Court Seeks Direction To Light Deepathoon Lamp Using Flame From...",
+      "summary": "Thiruparankundram | Plea In Supreme Court Seeks Direction To Light Deepathoon Lamp Using Flame From...",
       "category": "politics",
       "sourceName": "Live Law",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOOXIzNkRrNVN4R2VfbERJWEpYaWJ5Tk9jQkRHbVhaRWNXYmhSU3c0N1ZDNlVERVRnUWxrLXR5OGpHWTZzcUpqYjVyd0ljRXgzVG9kSWlqZlZxclAxclJiQ0JfanpldGluaDhBa1BiX2VkZW5GV2hwZTVGcEtDMHFmYzhXZFlwVTlwZEppMzJmR24zdWNJUGkxaXpBRXBueVRoZ2xhOEVGVF84VnAzYnJEeG55MFpLV3Zzam800gHAAUFVX3lxTE1QMzMyQUR4MG51bkhBdk5UenktSzVrM0JKSUdWNjNKSFhTUzJrMWdRT19Yd0tVam16U2h1ODlHam5YRk85eERtNFRtMzZ0VkZMRVg1ZHVlX0hYM0U4dS03YkN2d2xyUGhWOHBPM2E5ZG05ejFnU1F3WG91S0dYVHNPWS1DQnBvdTVrMlJHX0czLURxRTlVR3RYTWRSdFlfTjg1ckQwNVR5Q2FQOXpKVVFJUkp6eHZhQy1odFZzTlFwWA?oc=5"
+      "sourceUrl": "https://news.google.com/rss/articles/CBMigAJBVV95cUxNbEUxekRfZnBjZ0NXYzhVUXJGcDY5UVlLdi1HOU15WG9SZUNDZ0hRQ251WUE5MGZFb1BQeUR4SG1MQWtHTXBfWXZvUWZwN255OVZoci1uVDh1N1QwWnpCTmcyZW5lV0kwYUtiSmpnd2ZSZGV0UEYxMXpvcFBPWER5QnlLR2wzRUtVV1ViNGhVSmtleVQ2UW13TkROa2ZjcmZfY2JMa1QyNDlBWEsxWU1YQ0tYZHZabzFxM0JGeGpfVHJ2QkVWVXBpWkx2d1pUOUtRb1hremdaNmpQdUQtMlNsRkpVd3NCcDBiWlkzMWdFbll6VTBJR2tqSkJRUkdEcXRU0gGGAkFVX3lxTE1nYlJZSjdGWmRkVmYzaHBHblIzUFFIN0dkeU9GQ3JpQmpNUWw0RG1LRGVOZE55TVJ3N3FVNkJ0VndYU3dreVlkY3R5RjFTQzJ3MnJvRTBpVlZnTVdBUHVCTnFTdEJUbEJCX1g1MkJTM3ZXcUdEemZvVllNVGg3YnVrOFFYekFTd3Z5RmI5RWRPblZEM2ROMnJfT3kyZ0lyVnJSbjEzYVc1R2dGLWRzMmlVMGxKSVNqN2R2Qk4xNGE0SXl6TURrX1VNMkEzeGR2V1JNTHJORnh0YWc2ZmVXYjlnN2RDT3dNa1FjaktYTjRqR3VoOHQ5NDE2R0daTVVYN3gwVFhaanc?oc=5"
     },
     {
-      "title": "Uttar Pradesh Assembly elections: SP offers Congress 26 seats in U.P. polls, talks continue",
-      "summary": "Uttar Pradesh Assembly elections: SP offers Congress 26 seats in U.P. polls, talks continue",
-      "category": "politics",
-      "sourceName": "The Hindu",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNZm5xNWQ1dWRUbUIyMnFJMHV5aVlRXzBITFBsTXk5OHpVNXFRT3RKU1RlTG9jV2hGQ1FtWlZXbXB3UnpRYmN4SjNqSUdhbEE3TlJqazVISGFKdzlvTDBrV1pRUXpHSUJIcWN6bVpKMkd1d3l0U3hkYWNZekFzSlBWOEQ3T3BLYXh1Y3JDMU9MZDZXbmNYNUxNRHlSOHBDVm5nd1Q5dUtOSklCbmVrQUxqX1R1RG1CdXZIMHBudGJ6MjlBTFNVY2Q0Wmk4MExodnFVY3VQUnRn?oc=5"
+      "title": "US announces new tariffs on host of countries including China",
+      "summary": "The new levies would hit many of America's biggest trading partners, including China and the EU.",
+      "category": "economy",
+      "sourceName": "BBC Business",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/c893r9ke5p97o?at_medium=RSS&at_campaign=rss"
     },
     {
-      "title": "US attorney general dodges questions about Nvidia investigation",
-      "summary": "Nvidia's share price have fallen 7% as lawmakers demand answers about President Donald Trump's involvement in Huang's reinstatement.",
+      "title": "Trump proposing new tariffs on 14 partners including China and EU",
+      "summary": "Trump proposing new tariffs on 14 partners including China and EU",
       "category": "world",
-      "sourceName": "BBC News",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/crpdw1qx7jgxo?at_medium=RSS&at_campaign=rss"
-    },
-    {
-      "title": "US army maps show projected path of toxic dust from Iowa detonation",
-      "summary": "US army maps show projected path of toxic dust from Iowa detonation",
-      "category": "politics",
       "sourceName": "The Guardian",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1lNVJ2R0Q3RnJaNUJFT3Jockx3ZkI3U3hUMWVZcFhndXB3VDNaUEg5a1NKZ3NEQlBlWmlyU1JTNGZSdTBqT3lEZHlNM3pPWm1kMEhOdjJtdWQwRnJJNTJMU1BjMXk1S01qaWlSRWRSTGlFT25pc3Ffejd5NA?oc=5"
+      "sourceUrl": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQNzJkNEt0SmxFczJuc25uRFpYRjc1bDBVZ191T1p5TnFTbjRxeHA0QTk2TE1VM0FJMlI1ems4N1ItOGRFcHhma3ZLdEJKT01NSF9yVjFTaTc4SmlpQk5iSnRfdjRBZ2VCdDlLM0JEbFAtYkVjNXF1a0NqTG9OazJPaWFmamQ?oc=5"
     },
     {
-      "title": "Live storm updates: Record king tides leave Bay Area roads flooded",
-      "summary": "Live storm updates: Record king tides leave Bay Area roads flooded",
-      "category": "world",
-      "sourceName": "ABC7 Bay Area",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOdlJ3bzd6dnZTdzZrYTR5RWRnNTF1OE1IXy1hME8zVWlNdFBjZXBtQVo1VER5NF9YelIyZXlQWkxSbzU0SUxWdUlYVzMzZmVKVW8tM3ZKSkJybEI1eGcwZEhjMzhSZUtPNDRsRHh2ZVRpUkpLelJsSGRHTzVkelZlSXNLQ0M5Tk1iX0R3eVFuT3piRFdpU3BmZi1JQkxicEk2MTk2TUNjRGRESUlwNWdkeXRuMkZiZGJjRWFPOGlIaUw1SVhzWFpxX3V1a3ljT2xFRjhJckFVeFZtWFhZUmxFX0g4NHpXZjBka0tNdHdGc3VlT3g4?oc=5"
+      "title": "US to cap India tariff at 17% if trade deal is reached, USTR says",
+      "summary": "US to cap India tariff at 17% if trade deal is reached, USTR says",
+      "category": "politics",
+      "sourceName": "Reuters",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQRmdGMDdiZVhMaEZiM2hLVlNhdXQzZkM1b2F5NXFYaWZzbC1mX25kLU56ZThrNjFmZ2JVMW9fbjJhbUMwMXdzN3JLYXAyNE02a0FqclFyblhxZmxfbWRLVlQ5OFdoQkdmNEF1ZTlZUzRVVkkxQm14eDY0R1ZtUXJpRWhaNDE5c1hOM3pUYUhiRmJ1NnlTaGVrQk9uNGwwU2w5UmliTkRpZGQ?oc=5"
     },
     {
-      "title": "Emir of Daura: Katsina State govment suspend traditional ruler ova sexual assault allegation",
-      "summary": "Emir of Daura: Katsina State govment suspend traditional ruler ova sexual assault allegation",
-      "category": "world",
-      "sourceName": "BBC",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFA5WTZ0U1RkNk1oSTF0WkZLUG5YRDFCd2FjVmpWZEJ6NUVJbTloeGtfdmdjdlNCWUlIak9SV01LcDRLenJDV1QxV1hoQVBXNEJWaWxXcEtyeU96YkRYRGfSAWNBVV95cUxPYUM5M2FmdUdxQmtKdWw5cldkWWlpTUJyb25iaEVIRjk2M2ZadjlWakZNUWJpcTA1czJDOUpScTBfUG1kSW5WWWk5VVU3NXpmTmplUUdzZmF1X2JPaGYwRHd5ZVk?oc=5"
-    },
-    {
-      "title": "Russian jets spark air raid alert in South Korea",
-      "summary": "South Korea’s residents were urged to seek shelter as Russian military jets approached its airspace on Tuesday.",
+      "title": "Winter rains threaten 1,000 Gaza shelter sites, councils warn",
+      "summary": "About 200,000 tents need replacing, Gaza’s municipalities say, as the EU urges Israel to reopen all crossings.",
       "category": "world",
       "sourceName": "Al Jazeera",
-      "sourceUrl": "https://www.aljazeera.com/video/newsfeed/2026/11/24/aje-onl-nf_russian-jets-spark-air-raid-alert-in-south-korea-241126?traffic_source=rss"
+      "sourceUrl": "https://www.aljazeera.com/news/2026/11/25/winter-rains-threaten-1000-gaza-shelter-sites-councils-warn?traffic_source=rss"
+    },
+    {
+      "title": "Poundland collapses putting 11,000 jobs at risk",
+      "summary": "The discount chain has fallen into administration after its owners failed to find a buyer.",
+      "category": "economy",
+      "sourceName": "BBC Business",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cm3vgdn037z4o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "title": "Army calls detonation of bomb chemicals in Iowa a success after earlier fears of a toxic plume",
+      "summary": "Army calls detonation of bomb chemicals in Iowa a success after earlier fears of a toxic plume",
+      "category": "world",
+      "sourceName": "AP News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPZi1lalA4QTR1T3RxVkRDblVuYkY3SDBXV3A3bWhpaWJzN29ZT2xEWTR5b1RDMzZWUWRfdldya2R1ZlZiQ2ptLThvVjMxQmpMWUFKeFVEWnhjOGMzVUcyZDVjb3ZYa1o0RjFiYXVQSUFCczNFelNVYjQ2ZzFiOWxUSmlKdFVXWW8?oc=5"
+    },
+    {
+      "title": "Baby Aliyah steals the show during Australian Senate debate",
+      "summary": "Australian Senator Fatima Payman addressed the Senate with her six-month-old daughter, Aliyah, in her arms",
+      "category": "world",
+      "sourceName": "Al Jazeera",
+      "sourceUrl": "https://www.aljazeera.com/video/newsfeed/2026/11/25/baby-aliyah-steals-the-show-during-australian-senate-debate?traffic_source=rss"
+    },
+    {
+      "title": "US announces new tariffs on host of countries including China",
+      "summary": "The new levies would hit many of America's biggest trading partners, including China and the EU.",
+      "category": "world",
+      "sourceName": "BBC News",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/c893r9ke5p97o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "title": "US Army says controlled blast of explosives in Iowa was 'huge success'",
+      "summary": "Despite widespread concern from residents ahead of the blast, officials say that lead readings in the area so far have been promising.",
+      "category": "science",
+      "sourceName": "BBC Science",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cwg7l5ve251ko?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "title": "Republican wants FBI and CIA answers before questioning Nvidia chief",
+      "summary": "\"The public is rightly concerned,\" says the Republican lawmaker, who wants to know what the FBI and CIA knew about potential national security threats and whether Jensen Huang was warned.",
+      "category": "world",
+      "sourceName": "NPR",
+      "sourceUrl": "https://www.npr.org/2026/11/25/nx-s1-6052417/nvidia-jensen-huang-reaction-republicans-congress-investigation"
+    },
+    {
+      "title": "Images of asteroid targeted to test Earth's defences reveal stadium-sized crater",
+      "summary": "The asteroid's surface was transformed after a spacecraft was deliberately crashed into it four years ago",
+      "category": "world",
+      "sourceName": "BBC News",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cw8dv112r5gmo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "title": "Live updates: Thanksgiving storms target 250M+ with intense winds, heavy rain, flooding",
+      "summary": "Live updates: Thanksgiving storms target 250M+ with intense winds, heavy rain, flooding",
+      "category": "world",
+      "sourceName": "FOX Weather",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPaTl6NlBKb3JYSFJlRnNLeFEyX3ZqNnNERWJrUGpNaWhyLUZ5cTBfU182VFBLM3d5R0g1dDMyVkR2UUtOOTlmdEhJUkRaU0ZFY1dQRU1MTUVVaFFCeml0c244bEFNY0ZDdXlVQy1FUXVMWW5TS1RycEcxMjgxcjhEMl9uTE4xSGdlbENvWVRtN0MxVkFUX0RLTDFnRG4wcW9lQzVCeFpFSGdRX3RmaDM4?oc=5"
+    },
+    {
+      "title": "What's gone wrong at Poundland?",
+      "summary": "Poundland has collapse into administration. Why?",
+      "category": "economy",
+      "sourceName": "BBC Business",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cm4g10p2r0g9o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "title": "What’s behind Europe’s protests?",
+      "summary": "Increase in protests and industrial disputes across EU and UK.",
+      "category": "world",
+      "sourceName": "Al Jazeera",
+      "sourceUrl": "https://www.aljazeera.com/video/inside-story/2026/11/25/whats-behind-europes-protests?traffic_source=rss"
+    },
+    {
+      "title": "US Education Department probes Virginia schools after sexual abuse scandal",
+      "summary": "Virginia schools face scrutiny after revelations of abuse and widespread failures in mandatory staff background checks.",
+      "category": "world",
+      "sourceName": "Al Jazeera",
+      "sourceUrl": "https://www.aljazeera.com/news/2026/11/25/us-education-department-probes-virginia-schools-after-sexual-abuse-scandal?traffic_source=rss"
+    },
+    {
+      "title": "At least 30 killed in massive fire as fuel tanker crashes on Cairo highway",
+      "summary": "Another 19 are injured after the tanker reportedly overturns on a busy ring road in the Egyptian capital.",
+      "category": "world",
+      "sourceName": "BBC News",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cqy7rn30v314o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "title": "Duran Duran guitarist Andy Taylor dies, aged 65",
+      "summary": "The musician, who co-wrote some of the band's biggest hits, had been treated for prostate cancer.",
+      "category": "culture",
+      "sourceName": "BBC Culture",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cmp3vk6vr44po?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "title": "Israeli judges recommend dropping most serious charges against Netanyahu",
+      "summary": "The Israeli PM says his trial should end after judges said there was little chance of conviction in one of three cases.",
+      "category": "world",
+      "sourceName": "BBC News",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cxj05mv723r2o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "title": "How American Thanksgiving took root -- and evolved -- in Liberia",
+      "summary": "The first settlers of Liberia were African Americans who brought along the holiday of Thanksgiving — which has evolved to reflect the history and identity of this new nation.",
+      "category": "world",
+      "sourceName": "NPR",
+      "sourceUrl": "https://www.npr.org/2026/11/25/nx-s1-6048614/thanksgiving-liberia-gratitude-prayer"
+    },
+    {
+      "title": "Army to detonate tons of lead azide after delays. And, Abrego Garcia leaves U.S.",
+      "summary": "Authorities have evacuated a 5-mile radius to prepare to dispose of thousands of pounds of lead azide. And, after a nearly two-year legal battle, Kilmar Abrego Garcia's has voluntarily left the U.S.",
+      "category": "world",
+      "sourceName": "NPR",
+      "sourceUrl": "https://www.npr.org/2026/11/25/g-s1-155493/up-first-newsletter-iowa-detonation-kilmar-abrego-garcia-nvidia-jensen-huang"
     }
   ]
 }
