@@ -1,202 +1,139 @@
 {
-  "generatedAt": "2026-11-26T21:59:33.818251+00:00",
-  "dateLabel": "November 26, 2026",
+  "generatedAt": "2026-11-27T21:42:29.406459+00:00",
+  "dateLabel": "November 27, 2026",
   "items": [
     {
-      "title": "Watch: BBC confronts German man suspected of supplying migrant gangs with small boats",
-      "summary": "Marvin Reuter is contesting extradition to France, where he could face smuggling, criminal conspiracy and involuntary manslaughter charges.",
+      "title": "Osun LG Crisis Will Be Fully Resolved In The Next One Week — Gov Adeleke",
+      "summary": "Osun LG Crisis Will Be Fully Resolved In The Next One Week — Gov Adeleke",
+      "category": "world",
+      "sourceName": "Channels Television",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOcjY3M1d4dXNXRG8zc3BzUjhrNG16eDJueTM4MXN0djhuS1c1Qk9FeFR6NXR3Rmc4el9hWXozQXB1d2VUQVNuQ0tka0cxa0g0dVRyc3JBV1V5dV8wMGpqLXllNGQteUd2ZXp1cnFIYmN3N1ozOUoxaEc1WVFwaUYteDdMUERxRnJYZGxPUnVGSUk1d1VINFVuOEhOYjRNbHo0WEVBU1VJa0ZOYWFQZmc?oc=5"
+    },
+    {
+      "title": "Hundreds of thousands still without power after storms hit US on Thanksgiving",
+      "summary": "Hundreds of thousands still without power after storms hit US on Thanksgiving",
+      "category": "world",
+      "sourceName": "BBC",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBuV1NzUW1LVDRtNXhBd1h1VTVHMVRPdlR1bm4xM1VOZzh4Nk9zOU9wT2pEMjFxU3U0NHBPd0tKZ1BZdWNmelg2c1ZmUFFJRVF0cEVMT2NtTVVMS0U?oc=5"
+    },
+    {
+      "title": "Supreme Court orders Karthigai Deepam to be lit at ‘deepathoon’ on November 28; issues contempt notice",
+      "summary": "Supreme Court orders Karthigai Deepam to be lit at ‘deepathoon’ on November 28; issues contempt notice",
+      "category": "politics",
+      "sourceName": "The Hindu",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxPd0Y5Y2p5aVJERWZaUThqdE8tVVN4QUpETEZQYjN4T1FfNXBYRWMzbnE0dkw1akxyZXhmckVIbnRabnlBcDZ2U2hzU2Fjb2NVZ3N0eEVkSG92THUtTDJUZjhYRXVBSnlnaVYxMVYybW8teC1vQVk5ZFR0R2J5dXdfSnRwX2daZmRuQ09VYno5b2hBclpkZHItQ2pTc2JKQ2V6czJfUVc0RjZiRXRGRjJUOEt2NXdhYXdxbGhDUjhlb2JpUWJINl9JU1lCRkV5ZmdjaTFFUWxoQl9ZOUdMdms5VTFydXR2Y0Z4NDRSeEtQczFORFF3am8tSWpkbzJEUdIBhAJBVV95cUxNSXc3Skpkd3haRTFGbTN3d3FZYk5BV2pZU1JPQmtBMmNvbVcwYUxkTmF4eDlZeVJ4Nl9CZHp0VjMwaVpCQlZZSkh4a2h6bk5pUzJjWDZBWk5Va3VESjZIS1NyMHpPQkdncU4waVRnSnM1YkpEYTU1c09Yd2xHLXZUdjZFampicTczRkdhNGRMZHo4WUFQa3NZcEMtMng5bkdES0EwQ01pUE9HaGp3RTAyaGtpVlRKUDU0LVd3VkdqWThiTmtqMjRvRmQ3UXJ0U3BWZ2kwU05udkUzT3pRSkhQckZQRTJZckF1Ml8wMTJWWjJZNkJwWmJmUUUzN1pTS1p2NEFZcw?oc=5"
+    },
+    {
+      "title": "EXCLUSIVE Hackers breach US Air Force flagship Cloud One computing platform",
+      "summary": "EXCLUSIVE Hackers breach US Air Force flagship Cloud One computing platform",
+      "category": "world",
+      "sourceName": "Reuters",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPQnhWb2oyc2Qta3k0bUhwbGZTcWZMREZ0VU41eVNZWDJZTDlBcmMxZzFrLXlmVGJpUHBRbVdBRlNoQU9lWUlIcVpMcXQwWWpyYVJ2eDJQa1ZvNFU5MUFHLWdpQW1BVloyUW5lTUlVSlFpLXJwVHNLMl9fQnBFTTNnemY4Q0JiUkN3SXFndG1pX1l1TmdySFJDOHJlWC1fMnE3cjlaVFB5M1hWbU0?oc=5"
+    },
+    {
+      "title": "Hundreds of thousands still without power after storms hit US on Thanksgiving",
+      "summary": "Hundreds of thousands still without power after storms hit US on Thanksgiving",
+      "category": "world",
+      "sourceName": "BBC",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBuV1NzUW1LVDRtNXhBd1h1VTVHMVRPdlR1bm4xM1VOZzh4Nk9zOU9wT2pEMjFxU3U0NHBPd0tKZ1BZdWNmelg2c1ZmUFFJRVF0cEVMT2NtTVVMS0U?oc=5"
+    },
+    {
+      "title": "EXCLUSIVE Hackers breach US Air Force flagship Cloud One computing platform",
+      "summary": "EXCLUSIVE Hackers breach US Air Force flagship Cloud One computing platform",
+      "category": "world",
+      "sourceName": "Reuters",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPQnhWb2oyc2Qta3k0bUhwbGZTcWZMREZ0VU41eVNZWDJZTDlBcmMxZzFrLXlmVGJpUHBRbVdBRlNoQU9lWUlIcVpMcXQwWWpyYVJ2eDJQa1ZvNFU5MUFHLWdpQW1BVloyUW5lTUlVSlFpLXJwVHNLMl9fQnBFTTNnemY4Q0JiUkN3SXFndG1pX1l1TmdySFJDOHJlWC1fMnE3cjlaVFB5M1hWbU0?oc=5"
+    },
+    {
+      "title": "'We couldn't give up that easily': Marching bands scramble to cover costs after Thanksgiving parade rearranged",
+      "summary": "Stormy weather in New York City prompted organisers to push back the Macy's parade by two days - leaving some musicians stuck.",
       "category": "world",
       "sourceName": "BBC News",
-      "sourceUrl": "https://www.bbc.co.uk/news/videos/cvglrz5yr79go?at_medium=RSS&at_campaign=rss"
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/ckd71ypy9e8eo?at_medium=RSS&at_campaign=rss"
     },
     {
-      "title": "Storms across US disrupt travel and force Thanksgiving parade cancellations",
-      "summary": "Storms across US disrupt travel and force Thanksgiving parade cancellations",
-      "category": "world",
-      "sourceName": "The Guardian",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPTFcwRlp6TFNsWnE0UXRMQkdYbzZJOU82NDR6TVVmYnE2aGhSWnVBV1BEU0NqbExKLTJib3RVQ2FDWUpPZ1FjSVgwVzZYYUhqZjJDV1QwQUUyUGdYc3hwbXNKNC1SNld1Y01vaFVQdXFvVUdvNVNqV1pQNEw0SGZfaEY3UEMtczVLR0tLaHNGdXZtX1dCTUx6WWhvWTdmdXJIWWdWag?oc=5"
-    },
-    {
-      "title": "Congo Ebola outbreak reaches 12,000 cases as some responders evacuate",
-      "summary": "As the fast-moving outbreak continues to spread in eastern Congo, fighting between rebels and the army is disrupting efforts to contain the spread of the disease.",
+      "title": "French cinema star Gérard Depardieu ordered to stand trial for rape and sexual assault",
+      "summary": "The case has become one of the most prominent in France's reckoning with sexual violence, as the #MeToo movement has faced resistance in the country, particularly in the arts.",
       "category": "world",
       "sourceName": "NPR",
-      "sourceUrl": "https://www.npr.org/2026/11/26/g-s1-155957/congo-ebola-responders"
+      "sourceUrl": "https://www.npr.org/2026/11/27/nx-s1-6055559/gerard-depardieu-trial-rape-france"
     },
     {
-      "title": "Trump rips Obama, CNN as he touts ‘perfect’ Iowa detonation",
-      "summary": "Trump rips Obama, CNN as he touts ‘perfect’ Iowa detonation",
+      "title": "EXCLUSIVE: Global fashion brands shift orders from Bangladesh to India amid unrest",
+      "summary": "EXCLUSIVE: Global fashion brands shift orders from Bangladesh to India amid unrest",
+      "category": "politics",
+      "sourceName": "Reuters",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQQWJhaVBEcEFiX2hwb0lHanFvdTJncnpwM3JVMEh6WTUxSmhaWjV6MHcwdGJueHd5M1pmcVB2VG9UbGxKbzlseklNR2FjNHFWMlFLbmxLQkxxeXptM1VWUVRkWngxS2dwNTVWTng2NXcyUlo4NHM5OFM3NWNsNUY2WkdJblJmcVFRaVV4X1IweXZQWUJya01ZVi1qc19IVjF1OGEtQU9aVDd0eW5xYnBkQkxhcWg0dHFUWEwyYzlPdkdqZw?oc=5"
+    },
+    {
+      "title": "Why are families going hungry in northern Yemen even where food is on sale?",
+      "summary": "Flour and oil still reach markets in Hodeidah and Sanaa. But high costs and lack of work and aid put it out of reach.",
       "category": "world",
-      "sourceName": "The Hill",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQSXd5cEM3a3dfVzdKTHl0ZHhXcXNfZktBTWI0ZzA1Y0EwTWMteTNRR1dzd2ZVN2R3d3VUUjdybm9YNDlmX0hUSk1NSWM0Y3dBbVJWQ19vMG9ranpuZ2lRMkl4Nkh1X2h6cG45YVk3MW5pY1FIa21WWFYzSFEtcGtaT1dlSU1BUzgtYXR4UzZweEt6QmVRcFp4dGVUQk41Sm5SdnfSAacBQVVfeXFMTjM0M2ROMXdXNDk0c1VRMUQxUzl4dEFuSHZCTGFGYmxXM1RxdDFrdXZFb0ROWWtSc0ZNNkxjdlRCcjFwSzVIeGFISFd0eklvY0M4RVlLRG5BaHl1VmJfcEZ2dXhhVzZHc3A2VlBYVWpRazhJb1lsYzU0MnBYWUpmajFmUFd3VGJ0VmthUUtmRmR5SkpfZkd0dHJSQ2tuaDhmbjhOYkxaYUU?oc=5"
+      "sourceName": "Al Jazeera",
+      "sourceUrl": "https://www.aljazeera.com/economy/2026/11/27/why-are-families-going-hungry-in-northern-yemen-even-where-food-is-on-sale?traffic_source=rss"
     },
     {
-      "title": "Storms across US disrupt travel and force Thanksgiving parade cancellations",
-      "summary": "Storms across US disrupt travel and force Thanksgiving parade cancellations",
+      "title": "'We couldn't give up that easily': Marching bands scramble to cover costs after Thanksgiving parade rearranged",
+      "summary": "'We couldn't give up that easily': Marching bands scramble to cover costs after Thanksgiving parade rearranged",
       "category": "world",
-      "sourceName": "The Guardian",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPTFcwRlp6TFNsWnE0UXRMQkdYbzZJOU82NDR6TVVmYnE2aGhSWnVBV1BEU0NqbExKLTJib3RVQ2FDWUpPZ1FjSVgwVzZYYUhqZjJDV1QwQUUyUGdYc3hwbXNKNC1SNld1Y01vaFVQdXFvVUdvNVNqV1pQNEw0SGZfaEY3UEMtczVLR0tLaHNGdXZtX1dCTUx6WWhvWTdmdXJIWWdWag?oc=5"
+      "sourceName": "BBC",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE80dndNMHZlUjVKYU12RGk5d25yQ09veXd4LUxYdjJoYXhldUVHbnlYLUJHWUIzRmk0enJueDBoQ2UyRExnVzdvSVNQbG5HTl9uZHFoTm03S285a0E?oc=5"
     },
     {
-      "title": "FG says all 41 presidential health sector commitments fulfilled",
-      "summary": "FG says all 41 presidential health sector commitments fulfilled",
+      "title": "Venezuela to repeal law that bans opposition figures from office",
+      "summary": "It comes a month after opposition leader Maria Corina Machado returned to Venezuela.",
       "category": "world",
-      "sourceName": "Premium Times Nigeria",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQRUlTV3V0MVp3a0VLVFcyZzd4bFVBZkl3MUtXd21ndFVQVVdzTTB3QVNjY1dmSGFXcHF3c3I4UVIzelA4NVZ5dk9OZXNkbWp5RVVWck53bWhDX2VnVG5jQnFtVE41Q1hULTVMZWJLd042bGFScFRHV3J2VENDZUFMWVRHYUNHZmFvZG9HOWNFLXhmOEpIbmY2TXBSYlBETmpoeHB1X0ZtS2U5QWFzc3pxRHp3VGFLRkZsNklKeE1YZ0Jsc0k?oc=5"
+      "sourceName": "Al Jazeera",
+      "sourceUrl": "https://www.aljazeera.com/news/2026/11/27/venezuela-to-repeal-law-that-bans-opposition-figures-from-office?traffic_source=rss"
     },
     {
-      "title": "Simon Jack: Is Poundland's US owner to blame for its collapse?",
-      "summary": "Poundland's management and MPs blame the retailer's owners, Gordon Brothers, but the US firm says without them the chain would have collapsed last year.",
+      "title": "From £250 job to £9,000 bill: Inside the rogue trader networks scamming customers at scale",
+      "summary": "Networks of plumbers and electricians are scamming people on a large scale, the BBC reveals.",
       "category": "economy",
       "sourceName": "BBC Business",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/c62klzxvyzyqo?at_medium=RSS&at_campaign=rss"
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/c65yme31k7m2o?at_medium=RSS&at_campaign=rss"
     },
     {
-      "title": "More than 1,000 flights cancelled or delayed in US as weather disrupts Thanksgiving travel",
-      "summary": "More than 1,000 flights cancelled or delayed in US as weather disrupts Thanksgiving travel",
+      "title": "Taipei mayoral race in spotlight as Taiwan votes in local elections",
+      "summary": "Taipei mayoral race in spotlight as Taiwan votes in local elections",
+      "category": "world",
+      "sourceName": "CNA",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOUE8zemlLTGdpbWdGMHBCWHBKbXRzd29JYk1ibVByam1iQkJDcXpMcjlOaW41WmkxbTdLZ1VNU1IweWRQeXR1SEpxb29QWDloa2NZY3dWU0xvMWdremhPeTNOM3JPVkJvZUJ4bGx4c2hPdlVVVExmcnY3TFYwMXJyTHNsbnljUmlCNHRCazFBdFdkSFRVR1FkU0U3Z01hcE5B?oc=5"
+    },
+    {
+      "title": "'We couldn't give up that easily': Marching bands scramble to cover costs after Thanksgiving parade rearranged",
+      "summary": "'We couldn't give up that easily': Marching bands scramble to cover costs after Thanksgiving parade rearranged",
       "category": "world",
       "sourceName": "BBC",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE45bUpwdlMwTTBqVE5uMnQ0TXQyQ0hnLUVlU1B2akk2bmxaMTQyUG9BOG1xaFE4RUpERmlMS3NQVGJ6ek84Um1UX25PTWJ5Z0Jzd1FaamtsWlZjcjg?oc=5"
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE80dndNMHZlUjVKYU12RGk5d25yQ09veXd4LUxYdjJoYXhldUVHbnlYLUJHWUIzRmk0enJueDBoQ2UyRExnVzdvSVNQbG5HTl9uZHFoTm03S285a0E?oc=5"
     },
     {
-      "title": "Diesel tanker carrying up to 7,000 tonnes capsizes near Ibiza, killing one",
-      "summary": "The possible environmental damage is still being assessed by Spain's sea rescue service.",
-      "category": "world",
-      "sourceName": "BBC News",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/c9gklryvj24do?at_medium=RSS&at_campaign=rss"
-    },
-    {
-      "title": "Storms disrupt Thanksgiving travel. And, FCC violated ABC's free speech, judge says",
-      "summary": "The East Coast's weather is a major concern this holiday, as it could lead to coastal flooding. And, the judge says the FCC can't punish ABC for satire Trump doesn't like.",
-      "category": "world",
-      "sourceName": "NPR",
-      "sourceUrl": "https://www.npr.org/2026/11/26/g-s1-155950/up-first-newsletter-thanksgiving-weather-travel-trump-tariffs-iowa-detonation-fcc-free-speech"
-    },
-    {
-      "title": "German boat dealer suspected of supplying Channel smuggling gangs, BBC finds",
-      "summary": "Nearly a third of crossings in early 2026 allegedly involved boats or engines from the German man's firm.",
-      "category": "world",
-      "sourceName": "BBC News",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/cqlymky8kpzjo?at_medium=RSS&at_campaign=rss"
-    },
-    {
-      "title": "More than 1,000 flights cancelled or delayed in US as weather disrupts Thanksgiving travel",
-      "summary": "More than 1,000 flights cancelled or delayed in US as weather disrupts Thanksgiving travel",
-      "category": "world",
-      "sourceName": "BBC",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE45bUpwdlMwTTBqVE5uMnQ0TXQyQ0hnLUVlU1B2akk2bmxaMTQyUG9BOG1xaFE4RUpERmlMS3NQVGJ6ek84Um1UX25PTWJ5Z0Jzd1FaamtsWlZjcjg?oc=5"
-    },
-    {
-      "title": "Experts say new U.S. tariffs do not pose substantial threat, India should not rush into trade deal",
-      "summary": "Experts say new U.S. tariffs do not pose substantial threat, India should not rush into trade deal",
-      "category": "politics",
-      "sourceName": "The Hindu",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQZFByTVdLdWx5cnJhWHlIS1k1cGt1VU5pd2JVMm1LRkYxblg5OVlwMmxKVm1yeWYwVXJsajJJdmhHOXlUNV9zbWJkSDhjOXBmZm1wbFZRUW1OSWdsbkprejN5VDhCVnZEdENEVzEyNThYUURQUGZ5ekp3aTZvM3k4OF8xNTNISTVPeF9FU0tkQjN6LTNfWHhJRmVtaFBKTTE1ZmhZbnVRX21TSmh2VjJYZDlET3VNcF9QRFhOc2t1Qkg0aThHYkU2bTFITW1iNlpfN1B0OXR3WEFJNnJjWVRxVmFlbnAycExUM3pvNm9n0gH0AUFVX3lxTE5hdUhBQXdPYzFYeEFaVEpPYWVGUFlJbmhHZE9NbTZOcUh3OW80bllYenlBcVFrLVZzREs3T0J6eVB0ZmcySm12dUFpZ3FCOUdGQmM1STNBbXBpbkEyZXk0ZnQ1Y2JibnhnUlI0ZUdveG5WenZXZ19NRno0eXhKeFJKZHUyLWJwX19Yay1NX1pSSGQzYUlreloyNFJRZW44S1h2NmV2eW5iOVptS1J1SE5YdlBjdWhSa0tPOFNCclA0S0EwTjhENTBpNkh3cXRvV0FULTZBS0pLTTBwYnNyb3BIdmVoeVFGck92QVBsN2tXTnVwNE0?oc=5"
-    },
-    {
-      "title": "Trump rips Obama, CNN as he touts ‘perfect’ Iowa detonation",
-      "summary": "Trump rips Obama, CNN as he touts ‘perfect’ Iowa detonation",
-      "category": "politics",
-      "sourceName": "The Hill",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQSXd5cEM3a3dfVzdKTHl0ZHhXcXNfZktBTWI0ZzA1Y0EwTWMteTNRR1dzd2ZVN2R3d3VUUjdybm9YNDlmX0hUSk1NSWM0Y3dBbVJWQ19vMG9ranpuZ2lRMkl4Nkh1X2h6cG45YVk3MW5pY1FIa21WWFYzSFEtcGtaT1dlSU1BUzgtYXR4UzZweEt6QmVRcFp4dGVUQk41Sm5SdnfSAacBQVVfeXFMTjM0M2ROMXdXNDk0c1VRMUQxUzl4dEFuSHZCTGFGYmxXM1RxdDFrdXZFb0ROWWtSc0ZNNkxjdlRCcjFwSzVIeGFISFd0eklvY0M4RVlLRG5BaHl1VmJfcEZ2dXhhVzZHc3A2VlBYVWpRazhJb1lsYzU0MnBYWUpmajFmUFd3VGJ0VmthUUtmRmR5SkpfZkd0dHJSQ2tuaDhmbjhOYkxaYUU?oc=5"
-    },
-    {
-      "title": "Huw Edwards gives first interviews since child abuse image conviction",
-      "summary": "Minister Anna Turley said she was \"deeply uncomfortable\" with the interviews, while Channel 4 has insisted it \"holds Edwards to account\".",
+      "title": "Dec Donnelly says I'm a Celebrity tension 'became much bigger deal than it should have'",
+      "summary": "The co-hosts discussed tensions that flared between Mariella Frostrup and AJ Odudu on the show.",
       "category": "culture",
       "sourceName": "BBC Culture",
-      "sourceUrl": "https://www.bbc.co.uk/news/articles/c38x05jrjnx7o?at_medium=RSS&at_campaign=rss"
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/c65y1k8qx7q4o?at_medium=RSS&at_campaign=rss"
     },
     {
-      "title": "Amended Delimitation Bill likely to be tabled in special Parliament sitting from November 30",
-      "summary": "Amended Delimitation Bill likely to be tabled in special Parliament sitting from November 30",
-      "category": "politics",
-      "sourceName": "The Hindu",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOMVVXeUROenNyelhVTFhKMDNFTUxfS011NHQ2Y2VNbFA5a01KcEtEUWtMNjE0RXNpR1JEckwxMzN2RzBOU0EwaEp0Q1ViQWFLQzdEeXF1dFVuRjlkVHJVdlRJbFlNN1BMMTJkTWM2Sk5RZ3BibTY0VU5DMXRUZllPTEtsVmVPNXFyUGdNVmFDcG1rM3h0LTI4bGduZGpDYUlzWERVanh6VGRzMWFMYzZfR3ZqNUNjVmt2TDI2Y09BZF9aOXNRZExuRVoxZlZKdGtLRTdB0gHaAUFVX3lxTFBmMDU4Ykh1NjNLTm1iamI4UXVnQ2RnU3BvUDBiOThUT2tsYmNiT1UtZ0VVS2ZUR1NocHpyMG1WS1d6UzUyS29VaUZxZDV3WjVoYTVOMS14WWJRaXEzWndhZE9VR3h5LUV0MThqekFJSFRMdXByNU5ZVUdNRU1yOEJUZFAzR3ZIU3BvaGk4SzcyTmdJTlF3OXJxRjZTZDd0RkJ5NTJ0V2xBNkV6cVUzZV93d3F6VzRMdFVKc1pGNUFwemhRcEV5WmZLRnJBMjhWaHNTUzBGWnJCUUNn?oc=5"
-    },
-    {
-      "title": "Egypt detains driver over Cairo fuel tanker fire that killed 31",
-      "summary": "Prosecutors order drug tests for the 21-year-old suspect, who says he was overtaking when the crash happened.",
-      "category": "world",
-      "sourceName": "Al Jazeera",
-      "sourceUrl": "https://www.aljazeera.com/news/2026/11/26/egypt-detains-driver-over-cairo-fuel-tanker-fire-that-killed-31?traffic_source=rss"
-    },
-    {
-      "title": "More than 1,000 flights cancelled or delayed in US as weather disrupts Thanksgiving travel",
-      "summary": "More than 1,000 flights cancelled or delayed in US as weather disrupts Thanksgiving travel",
-      "category": "world",
-      "sourceName": "BBC",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE45bUpwdlMwTTBqVE5uMnQ0TXQyQ0hnLUVlU1B2akk2bmxaMTQyUG9BOG1xaFE4RUpERmlMS3NQVGJ6ek84Um1UX25PTWJ5Z0Jzd1FaamtsWlZjcjg?oc=5"
-    },
-    {
-      "title": "Attack on Saudi’s Jazan refinery kills one person, disrupts operations",
-      "summary": "The attack killed a Nepali national, injured several people and sparked a fire, Saudi Energy Ministry says.",
-      "category": "world",
-      "sourceName": "Al Jazeera",
-      "sourceUrl": "https://www.aljazeera.com/news/2026/11/26/attack-on-saudi-aramcos-jazan-refinery-kills-worker-disrupts-operations?traffic_source=rss"
-    },
-    {
-      "title": "Shehu Sani challenges Adeleke to resolve Osun local government crisis",
-      "summary": "Shehu Sani challenges Adeleke to resolve Osun local government crisis",
-      "category": "world",
-      "sourceName": "Premium Times Nigeria",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNNC0tVHNVWFhpeHE1R0cyaG92a2tsVW1YMFdqMkJKdmlON0hBd3lSNmZZNkVKbWxMV3MyNXQ1bTNEdnVKZS1QXzlUUm5ic295WVkyOUdVNEhjeEFDVlBFYW5MSmJQdFM0Z3ktbnhpMWtBYXVuRW5pSDBvMllIMjlEZ0RqWEtOZThaMTY2emt3QXlHRnVsWVFneThvT2F4UWF1ZndkSXA1UXJIWEZ2Z3hLUHU2OUdxSzNNOWh0ajE4M1dLXy10?oc=5"
-    },
-    {
-      "title": "More than 1,000 flights cancelled or delayed in US as weather disrupts Thanksgiving travel",
-      "summary": "More than 1,000 flights cancelled or delayed in US as weather disrupts Thanksgiving travel",
-      "category": "politics",
-      "sourceName": "BBC",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE45bUpwdlMwTTBqVE5uMnQ0TXQyQ0hnLUVlU1B2akk2bmxaMTQyUG9BOG1xaFE4RUpERmlMS3NQVGJ6ek84Um1UX25PTWJ5Z0Jzd1FaamtsWlZjcjg?oc=5"
-    },
-    {
-      "title": "New US tariffs: Limited near-term impact on Singapore, but analysts warn of lasting trade barriers",
-      "summary": "New US tariffs: Limited near-term impact on Singapore, but analysts warn of lasting trade barriers",
-      "category": "world",
-      "sourceName": "CNA",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOSThCTDRqRG1VaDcwejlMSTAxSFFjSmoxRWx3YjFYQWRNYUZEUEhiQ2pycU1hT1BaR3kyUzgwOFlldkF5QXFRQl9qb0p3MkdscEQ4ZXZPeGJDNkpfTnd2YXcwQUVnV2R6RWNmbzZEQjAxeEtKWUVpblFlbXhyaUhkc3RybjZMNHBGWTRqWQ?oc=5"
-    },
-    {
-      "title": "Trump rips Obama, CNN as he touts ‘perfect’ Iowa detonation",
-      "summary": "Trump rips Obama, CNN as he touts ‘perfect’ Iowa detonation",
-      "category": "world",
-      "sourceName": "The Hill",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQSXd5cEM3a3dfVzdKTHl0ZHhXcXNfZktBTWI0ZzA1Y0EwTWMteTNRR1dzd2ZVN2R3d3VUUjdybm9YNDlmX0hUSk1NSWM0Y3dBbVJWQ19vMG9ranpuZ2lRMkl4Nkh1X2h6cG45YVk3MW5pY1FIa21WWFYzSFEtcGtaT1dlSU1BUzgtYXR4UzZweEt6QmVRcFp4dGVUQk41Sm5SdnfSAacBQVVfeXFMTjM0M2ROMXdXNDk0c1VRMUQxUzl4dEFuSHZCTGFGYmxXM1RxdDFrdXZFb0ROWWtSc0ZNNkxjdlRCcjFwSzVIeGFISFd0eklvY0M4RVlLRG5BaHl1VmJfcEZ2dXhhVzZHc3A2VlBYVWpRazhJb1lsYzU0MnBYWUpmajFmUFd3VGJ0VmthUUtmRmR5SkpfZkd0dHJSQ2tuaDhmbjhOYkxaYUU?oc=5"
-    },
-    {
-      "title": "Storms across US disrupt travel and force Thanksgiving parade cancellations",
-      "summary": "Storms across US disrupt travel and force Thanksgiving parade cancellations",
-      "category": "world",
-      "sourceName": "The Guardian",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPTFcwRlp6TFNsWnE0UXRMQkdYbzZJOU82NDR6TVVmYnE2aGhSWnVBV1BEU0NqbExKLTJib3RVQ2FDWUpPZ1FjSVgwVzZYYUhqZjJDV1QwQUUyUGdYc3hwbXNKNC1SNld1Y01vaFVQdXFvVUdvNVNqV1pQNEw0SGZfaEY3UEMtczVLR0tLaHNGdXZtX1dCTUx6WWhvWTdmdXJIWWdWag?oc=5"
-    },
-    {
-      "title": "Government, parliament and judiciary must have mutual respect and not overreach: Shanmugam",
-      "summary": "Government, parliament and judiciary must have mutual respect and not overreach: Shanmugam",
-      "category": "world",
-      "sourceName": "CNA",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOTHZBSXdBbVVWVU9LMUhtQ0JqelQ5YnBFcXdQcnNrRnpvTEJEVElvcFp2Vnk0ZU9BX19hUmJfdDlYZjMxT2xuRy1xUlh6ejREdDZKR2RiSGxka3dFc0VtQjJkdEw3YkpFVks3aHJQSXp1RzdGQmtqM3BhbmdNTm1VYTFrX282N1ZjdXJaWEd6WlpfTG5ZTzVpS2dsR1RxeWY1VVpQdXFic3J4ZHdLU3FpZnBR?oc=5"
-    },
-    {
-      "title": "Storms across US disrupt travel and force Thanksgiving parade cancellations",
-      "summary": "Storms across US disrupt travel and force Thanksgiving parade cancellations",
-      "category": "politics",
-      "sourceName": "The Guardian",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPTFcwRlp6TFNsWnE0UXRMQkdYbzZJOU82NDR6TVVmYnE2aGhSWnVBV1BEU0NqbExKLTJib3RVQ2FDWUpPZ1FjSVgwVzZYYUhqZjJDV1QwQUUyUGdYc3hwbXNKNC1SNld1Y01vaFVQdXFvVUdvNVNqV1pQNEw0SGZfaEY3UEMtczVLR0tLaHNGdXZtX1dCTUx6WWhvWTdmdXJIWWdWag?oc=5"
-    },
-    {
-      "title": "North Korea's Kim vows to build more nuclear weapons after ignoring Trump's overture",
-      "summary": "Leader Kim Jong Un reportedly visited facilities that produce nuclear ingredients and called for building more nuclear weapons to cope with threats from the U.S. and South Korea.",
+      "title": "As UN Secretary General's last day approaches, search for his replacement continues",
+      "summary": "The UN Secretary General's term ends this year, but the big powers at the UN have been unable to agree on a replacement. UN watchers worry that there will be little time to get up to speed.",
       "category": "world",
       "sourceName": "NPR",
-      "sourceUrl": "https://www.npr.org/2026/11/26/g-s1-155955/north-korea-kim-nuclear-weapons-trump"
+      "sourceUrl": "https://www.npr.org/2026/11/27/nx-s1-6050907/as-un-secretary-generals-last-day-approaches-search-for-his-replacement-continues"
     },
     {
-      "title": "Bangladesh garment workers clash with police over low wages",
-      "summary": "Bangladeshi garment workers clashed with police after a 36% minimum wage increase fell short of their demands.",
+      "title": "New road traffic laws, including ban on holding mobile phones while driving, to take effect on Dec 1",
+      "summary": "New road traffic laws, including ban on holding mobile phones while driving, to take effect on Dec 1",
       "category": "world",
-      "sourceName": "Al Jazeera",
-      "sourceUrl": "https://www.aljazeera.com/video/newsfeed/2026/11/26/bangladesh-garment-workers-clash-with-police-over-low-wages?traffic_source=rss"
+      "sourceName": "CNA",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNSmVJMHFiSEZPRjdlSUJkRXBOVkJydzJpRzNDR0pUN2dweWlZQ3dfMG9jUWN3UTdEeUtnd3YyU0g5ZUZCY2xDeDhKQkJ4UTgxbEtkSzBReElDSG1sa2JhWGJGU1h4dHdkdHNIeWo0bDZSbUY0dDRrWHFHTGVPMmRhTEZ5UkpBVV8xNGxNOHpTNnk2bnNGMDFyOW1pMFM5blVvMjFSWHEzWQ?oc=5"
+    },
+    {
+      "title": "EXCLUSIVE Hackers breach US Air Force flagship Cloud One computing platform",
+      "summary": "EXCLUSIVE Hackers breach US Air Force flagship Cloud One computing platform",
+      "category": "politics",
+      "sourceName": "Reuters",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPQnhWb2oyc2Qta3k0bUhwbGZTcWZMREZ0VU41eVNZWDJZTDlBcmMxZzFrLXlmVGJpUHBRbVdBRlNoQU9lWUlIcVpMcXQwWWpyYVJ2eDJQa1ZvNFU5MUFHLWdpQW1BVloyUW5lTUlVSlFpLXJwVHNLMl9fQnBFTTNnemY4Q0JiUkN3SXFndG1pX1l1TmdySFJDOHJlWC1fMnE3cjlaVFB5M1hWbU0?oc=5"
     },
     {
       "title": "Faisal Islam: Why Trump's new tariffs are less of a threat",
@@ -206,11 +143,74 @@
       "sourceUrl": "https://www.bbc.co.uk/news/articles/c6r7g4e3yep1o?at_medium=RSS&at_campaign=rss"
     },
     {
-      "title": "Watch: Roofs torn off and streets under water as severe weather hits US",
-      "summary": "Hundreds of thousands have been affected by storms in the country as the Thanksgiving holiday weekend begins.",
+      "title": "Spanish PM and rivals rally supporters in final pitch for votes",
+      "summary": "Prime Minister Pedro Sánchez wants to defy the polls, and his main rivals accuse him of not telling the truth and of \"betrayal\".",
+      "category": "world",
+      "sourceName": "BBC News",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/c8wy5p4gdnwvo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "title": "EXCLUSIVE Hackers breach US Air Force flagship Cloud One computing platform",
+      "summary": "EXCLUSIVE Hackers breach US Air Force flagship Cloud One computing platform",
+      "category": "world",
+      "sourceName": "Reuters",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPQnhWb2oyc2Qta3k0bUhwbGZTcWZMREZ0VU41eVNZWDJZTDlBcmMxZzFrLXlmVGJpUHBRbVdBRlNoQU9lWUlIcVpMcXQwWWpyYVJ2eDJQa1ZvNFU5MUFHLWdpQW1BVloyUW5lTUlVSlFpLXJwVHNLMl9fQnBFTTNnemY4Q0JiUkN3SXFndG1pX1l1TmdySFJDOHJlWC1fMnE3cjlaVFB5M1hWbU0?oc=5"
+    },
+    {
+      "title": "Zelensky criticises 'strange' Trump-Putin friendship in BBC interview",
+      "summary": "Ukraine's president voices frustration with US and says it is not pushing Russia hard enough in peace talks to end the war.",
+      "category": "world",
+      "sourceName": "BBC News",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/c820q9wgrpyyo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "title": "NCDMB commissions Monarch Alloys’ concrete weight coating plant",
+      "summary": "NCDMB commissions Monarch Alloys’ concrete weight coating plant",
+      "category": "world",
+      "sourceName": "Premium Times Nigeria",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPOFZKRjBiamM5a3ZzempSaFhmTmJLekJYM0hTS0lHMWMxQnZwVW1fUG55dTRkVzBaTlY1bVl2SUFLbXFNdUtSN3lJZnc3UG9lS05HOTdQbFE2UHY1aUlzS2dLUDNzV3Vzb1oyYzlEQnN1ekVMRkVZUmR1WjhFMUhsWVBYaXc5RW5IMUhjYU9IRXJLSHFtd1VPNy1ONnhXT19INk1jRC1ZRnd4TGdNZG1fUE9LTlo?oc=5"
+    },
+    {
+      "title": "Capsized tanker carrying 7,000 tonnes of diesel to be towed away from Ibiza",
+      "summary": "There are fears of a major oil spillage off Ibiza but the ship's fuel tanks are so far intact.",
       "category": "science",
       "sourceName": "BBC Science",
-      "sourceUrl": "https://www.bbc.co.uk/news/videos/cq808d704m22o?at_medium=RSS&at_campaign=rss"
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cvrlgz6g0ekgo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "title": "Rabiu Kwankwaso: Kano govment dismiss NDC Vice-Presidential candidate EFCC allegation claim against govnor Abba Yusuf",
+      "summary": "Rabiu Kwankwaso: Kano govment dismiss NDC Vice-Presidential candidate EFCC allegation claim against govnor Abba Yusuf",
+      "category": "world",
+      "sourceName": "BBC",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1nd1ZMRzdvU0lrUnRfLTNyOHluYzQxZU50N0hWbklhZDlTd180TDlaUnJ0QWFWcHhJWjlzWk1zcVZTQ01UdnBQWkVmel9IMW1mbXMtYktmTGlzOWhmOVHSAWNBVV95cUxPeWtGX2pXR3FVRHFaWHZxVXpGTDc4R3liejJiaWxBdG1KMng3bV9GTlh6UVFKXzRySE9pZTR0UmVQeXljajk5MjQ3MlZNQlZwczlkUGRjMENpRnUwT1B0aHNsRWs?oc=5"
+    },
+    {
+      "title": "'We have no interest in hearing from Huw Edwards', Downing Street says",
+      "summary": "There has been a backlash against new interviews with the disgraced former BBC News presenter.",
+      "category": "culture",
+      "sourceName": "BBC Culture",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/c60mdl2y2w3do?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "title": "Hundreds of thousands still without power after storms hit US on Thanksgiving",
+      "summary": "Hundreds of thousands still without power after storms hit US on Thanksgiving",
+      "category": "world",
+      "sourceName": "BBC",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBuV1NzUW1LVDRtNXhBd1h1VTVHMVRPdlR1bm4xM1VOZzh4Nk9zOU9wT2pEMjFxU3U0NHBPd0tKZ1BZdWNmelg2c1ZmUFFJRVF0cEVMT2NtTVVMS0U?oc=5"
+    },
+    {
+      "title": "OpenAI countersues Apple over trade secrets as AI race heats up",
+      "summary": "Tensions between the two tech companies have escalated as intensifying race to develop AI products fuels competition.",
+      "category": "world",
+      "sourceName": "Al Jazeera",
+      "sourceUrl": "https://www.aljazeera.com/economy/2026/11/27/openai-countersues-apple-over-trade-secrets-as-ai-race-heats-up?traffic_source=rss"
+    },
+    {
+      "title": "Asian economies face challenges in navigating new US tariffs: Analysts",
+      "summary": "Asian economies face challenges in navigating new US tariffs: Analysts",
+      "category": "world",
+      "sourceName": "CNA",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNdWNlQ2QtSVNObHpVVGF6TWZiRi00bHpTRi1UTlpFVkV0MVVnLXd5YTNDdENKUTkxb2RWWVZ0RDI4THVCMXdESXFzZ3B6SjVPWFZ3VVFOMnh2OFo1bEdLQi11YmdNNGoxSHZMWVNKblExY0o2M0FISk1zd05iS1VEUWRxMUdZTEIweDlnR2RDMDM1cFJzY01pVmlpOU12YmxXMjB6bDVkeWZ1Z3dqZFp0Sg?oc=5"
     }
   ]
 }
